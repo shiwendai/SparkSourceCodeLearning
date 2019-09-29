@@ -1,0 +1,46 @@
+products:
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$2.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$3.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$4.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$5.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$1.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$2.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getClasses$3.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$1.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$2.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$getInnerFunctions$3.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$1.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$2.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$3.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$1$$anonfun$1.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$1.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$$anonfun$privateWithin$2.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore$.class
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> E:\CloudMusic\spark-2.1.1\tools\target\scala-2.11\classes\org\apache\spark\tools\GenerateMIMAIgnore.class
+binary dependencies:
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Users\Administrator\.m2\repository\org\clapper\classutil_2.11\1.0.6\classutil_2.11-1.0.6.jar
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Users\Administrator\.m2\repository\org\scala-lang\scala-compiler\2.11.8\scala-compiler-2.11.8.jar
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Users\Administrator\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> C:\Users\Administrator\.m2\repository\org\scala-lang\scala-reflect\2.11.8\scala-reflect-2.11.8.jar
+source dependencies:
+external dependencies:
+class names:
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$2
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$3
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$4
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$5
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getClasses$1
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getClasses$2
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getClasses$3
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getInnerFunctions$1
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getInnerFunctions$2
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$getInnerFunctions$3
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$1
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$2
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$org$apache$spark$tools$GenerateMIMAIgnore$$getAnnotatedOrPackagePrivateMembers$3
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$privateWithin$1
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$privateWithin$1$$anonfun$1
+   E:\CloudMusic\spark-2.1.1\tools\src\main\scala\org\apache\spark\tools\GenerateMIMAIgnore.scala -> org.apache.spark.tools.GenerateMIMAIgnore$$anonfun$privateWithin$2

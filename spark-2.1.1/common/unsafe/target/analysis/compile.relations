@@ -1,0 +1,94 @@
+products:
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\sql\catalyst\expressions\HiveHasher.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\sql\catalyst\expressions\HiveHasher.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\ByteArrayMethods.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\array\ByteArrayMethods.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\LongArray.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\array\LongArray.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\bitset\BitSetMethods.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\bitset\BitSetMethods.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\hash\Murmur3_x86_32.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\hash\Murmur3_x86_32.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\KVIterator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\KVIterator.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\memory\HeapMemoryAllocator.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\memory\MemoryAllocator.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\memory\MemoryBlock.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryLocation.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\memory\MemoryLocation.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\Platform$1.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\Platform.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\ByteArray.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\types\ByteArray.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\CalendarInterval.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\types\CalendarInterval.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\types\UTF8String.class
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\UnsafeAlignedOffset.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\target\scala-2.11\classes\org\apache\spark\unsafe\UnsafeAlignedOffset.class
+binary dependencies:
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\sql\catalyst\expressions\HiveHasher.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\ByteArrayMethods.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\LongArray.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\bitset\BitSetMethods.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\hash\Murmur3_x86_32.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\KVIterator.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryLocation.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\ByteArray.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\CalendarInterval.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java -> C:\Users\Administrator\.m2\repository\com\esotericsoftware\kryo-shaded\3.0.3\kryo-shaded-3.0.3.jar
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\UnsafeAlignedOffset.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+source dependencies:
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\sql\catalyst\expressions\HiveHasher.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\sql\catalyst\expressions\HiveHasher.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\sql\catalyst\expressions\HiveHasher.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\ByteArrayMethods.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\ByteArrayMethods.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\ByteArrayMethods.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\LongArray.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\LongArray.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\LongArray.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\LongArray.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\bitset\BitSetMethods.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\bitset\BitSetMethods.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\bitset\BitSetMethods.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\hash\Murmur3_x86_32.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\hash\Murmur3_x86_32.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\hash\Murmur3_x86_32.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\KVIterator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\KVIterator.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryLocation.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryLocation.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryLocation.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\ByteArray.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\ByteArray.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\ByteArray.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\CalendarInterval.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\CalendarInterval.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\ByteArrayMethods.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\hash\Murmur3_x86_32.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\UnsafeAlignedOffset.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\UnsafeAlignedOffset.java -> E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\UnsafeAlignedOffset.java
+external dependencies:
+class names:
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\sql\catalyst\expressions\HiveHasher.java -> org.apache.spark.sql.catalyst.expressions.HiveHasher
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\ByteArrayMethods.java -> org.apache.spark.unsafe.array.ByteArrayMethods
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\array\LongArray.java -> org.apache.spark.unsafe.array.LongArray
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\bitset\BitSetMethods.java -> org.apache.spark.unsafe.bitset.BitSetMethods
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\hash\Murmur3_x86_32.java -> org.apache.spark.unsafe.hash.Murmur3_x86_32
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\KVIterator.java -> org.apache.spark.unsafe.KVIterator
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\HeapMemoryAllocator.java -> org.apache.spark.unsafe.memory.HeapMemoryAllocator
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryAllocator.java -> org.apache.spark.unsafe.memory.MemoryAllocator
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryBlock.java -> org.apache.spark.unsafe.memory.MemoryBlock
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\MemoryLocation.java -> org.apache.spark.unsafe.memory.MemoryLocation
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\memory\UnsafeMemoryAllocator.java -> org.apache.spark.unsafe.memory.UnsafeMemoryAllocator
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java -> org.apache.spark.unsafe.Platform
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\Platform.java -> org.apache.spark.unsafe.Platform$1
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\ByteArray.java -> org.apache.spark.unsafe.types.ByteArray
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\CalendarInterval.java -> org.apache.spark.unsafe.types.CalendarInterval
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\types\UTF8String.java -> org.apache.spark.unsafe.types.UTF8String
+   E:\CloudMusic\spark-2.1.1\common\unsafe\src\main\java\org\apache\spark\unsafe\UnsafeAlignedOffset.java -> org.apache.spark.unsafe.UnsafeAlignedOffset

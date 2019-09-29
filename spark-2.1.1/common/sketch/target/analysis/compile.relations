@@ -1,0 +1,61 @@
+products:
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BitArray.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\BitArray.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\BloomFilter$Version.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\BloomFilter.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\BloomFilterImpl.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\CountMinSketch$Version.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\CountMinSketch.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\CountMinSketchImpl.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\IncompatibleMergeException.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Murmur3_x86_32.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\Murmur3_x86_32.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Platform.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\Platform.class
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Utils.java -> E:\CloudMusic\spark-2.1.1\common\sketch\target\scala-2.11\classes\org\apache\spark\util\sketch\Utils.class
+binary dependencies:
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BitArray.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Murmur3_x86_32.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Platform.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Utils.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+source dependencies:
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BitArray.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BitArray.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BitArray.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Murmur3_x86_32.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Utils.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Murmur3_x86_32.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Utils.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Murmur3_x86_32.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Murmur3_x86_32.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Murmur3_x86_32.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Platform.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Platform.java
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Utils.java -> E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Utils.java
+external dependencies:
+class names:
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BitArray.java -> org.apache.spark.util.sketch.BitArray
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java -> org.apache.spark.util.sketch.BloomFilter
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilter.java -> org.apache.spark.util.sketch.BloomFilter$Version
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\BloomFilterImpl.java -> org.apache.spark.util.sketch.BloomFilterImpl
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java -> org.apache.spark.util.sketch.CountMinSketch
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketch.java -> org.apache.spark.util.sketch.CountMinSketch$Version
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\CountMinSketchImpl.java -> org.apache.spark.util.sketch.CountMinSketchImpl
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\IncompatibleMergeException.java -> org.apache.spark.util.sketch.IncompatibleMergeException
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Murmur3_x86_32.java -> org.apache.spark.util.sketch.Murmur3_x86_32
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Platform.java -> org.apache.spark.util.sketch.Platform
+   E:\CloudMusic\spark-2.1.1\common\sketch\src\main\java\org\apache\spark\util\sketch\Utils.java -> org.apache.spark.util.sketch.Utils

@@ -1,0 +1,133 @@
+products:
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\AbstractCommandBuilder.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\ChildProcAppHandle.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\CommandBuilderUtils$JavaVendor.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\CommandBuilderUtils.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherConnection.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherProtocol$Hello.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherProtocol$Message.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherProtocol$SetAppId.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherProtocol$SetState.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherProtocol$Stop.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherProtocol.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherServer$1.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherServer$2.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherServer$ServerConnection.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\LauncherServer.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\Main$1.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\Main$MainClassOptionParser.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\Main.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\NamedThreadFactory.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\NamedThreadFactory.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\OutputRedirector$1.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\OutputRedirector.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkAppHandle$Listener.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkAppHandle$State.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkAppHandle.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkClassCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkClassCommandBuilder.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkLauncher$ArgumentValidator.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkLauncher.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkSubmitCommandBuilder$1.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkSubmitCommandBuilder$OptionParser.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkSubmitCommandBuilder.class
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitOptionParser.java -> E:\CloudMusic\spark-2.1.1\launcher\target\scala-2.11\classes\org\apache\spark\launcher\SparkSubmitOptionParser.class
+binary dependencies:
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\NamedThreadFactory.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkClassCommandBuilder.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitOptionParser.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+source dependencies:
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\NamedThreadFactory.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkClassCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitOptionParser.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\NamedThreadFactory.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\NamedThreadFactory.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkClassCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkClassCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkClassCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkClassCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\NamedThreadFactory.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitOptionParser.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitOptionParser.java
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitOptionParser.java -> E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitOptionParser.java
+external dependencies:
+class names:
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\AbstractCommandBuilder.java -> org.apache.spark.launcher.AbstractCommandBuilder
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\ChildProcAppHandle.java -> org.apache.spark.launcher.ChildProcAppHandle
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java -> org.apache.spark.launcher.CommandBuilderUtils
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\CommandBuilderUtils.java -> org.apache.spark.launcher.CommandBuilderUtils$JavaVendor
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherConnection.java -> org.apache.spark.launcher.LauncherConnection
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> org.apache.spark.launcher.LauncherProtocol
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> org.apache.spark.launcher.LauncherProtocol$Hello
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> org.apache.spark.launcher.LauncherProtocol$Message
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> org.apache.spark.launcher.LauncherProtocol$SetAppId
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> org.apache.spark.launcher.LauncherProtocol$SetState
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherProtocol.java -> org.apache.spark.launcher.LauncherProtocol$Stop
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> org.apache.spark.launcher.LauncherServer
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> org.apache.spark.launcher.LauncherServer$1
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> org.apache.spark.launcher.LauncherServer$2
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\LauncherServer.java -> org.apache.spark.launcher.LauncherServer$ServerConnection
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> org.apache.spark.launcher.Main
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> org.apache.spark.launcher.Main$1
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\Main.java -> org.apache.spark.launcher.Main$MainClassOptionParser
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\NamedThreadFactory.java -> org.apache.spark.launcher.NamedThreadFactory
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java -> org.apache.spark.launcher.OutputRedirector
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\OutputRedirector.java -> org.apache.spark.launcher.OutputRedirector$1
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java -> org.apache.spark.launcher.SparkAppHandle
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java -> org.apache.spark.launcher.SparkAppHandle$Listener
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkAppHandle.java -> org.apache.spark.launcher.SparkAppHandle$State
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkClassCommandBuilder.java -> org.apache.spark.launcher.SparkClassCommandBuilder
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> org.apache.spark.launcher.SparkLauncher
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkLauncher.java -> org.apache.spark.launcher.SparkLauncher$ArgumentValidator
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> org.apache.spark.launcher.SparkSubmitCommandBuilder
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> org.apache.spark.launcher.SparkSubmitCommandBuilder$1
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitCommandBuilder.java -> org.apache.spark.launcher.SparkSubmitCommandBuilder$OptionParser
+   E:\CloudMusic\spark-2.1.1\launcher\src\main\java\org\apache\spark\launcher\SparkSubmitOptionParser.java -> org.apache.spark.launcher.SparkSubmitOptionParser

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="projectSpecificProfile">
+      <ProjectSpecificProfile>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="importOrderConfigFilePath" value="E:/技术资料/oneplus_codeformatter.xml" />
+        <option name="pathToConfigFileJava" value="E:/技术资料/oneplus_codeformatter.xml" />
+        <option name="selectedJavaProfile" value="oneplus-java-standard" />
+      </ProjectSpecificProfile>
+    </option>
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1441935345716" />
+        <option name="importOrderConfigFilePath" value="E:/idea/setting/oneplus_codeformatter.xml" />
+        <option name="importOrderFromFile" value="true" />
+        <option name="name" value="default" />
+        <option name="pathToConfigFileJava" value="E:/idea/setting/oneplus_codeformatter.xml" />
+        <option name="selectedJavaProfile" value="oneplus-java-standard" />
+      </Settings>
+    </option>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

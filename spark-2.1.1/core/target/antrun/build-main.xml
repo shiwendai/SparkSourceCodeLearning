@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec executable="bash">
+    <arg value="E:\CloudMusic\spark-2.1.1\core/../build/spark-build-info"/>
+    <arg value="E:\CloudMusic\spark-2.1.1\core\target/extra-resources"/>
+    <arg value="2.1.1"/>
+  </exec>
+</target>
+</project>

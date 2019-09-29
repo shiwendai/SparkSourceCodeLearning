@@ -1,0 +1,40 @@
+products:
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\AlphaComponent.java -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\AlphaComponent.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\DeveloperApi.java -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\DeveloperApi.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Experimental.java -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\Experimental.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\InterfaceStability$Evolving.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\InterfaceStability$Stable.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\InterfaceStability$Unstable.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\InterfaceStability.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Private.java -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\Private.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\package.scala -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\package$.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\package.scala -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\package.class
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\Since.scala -> E:\CloudMusic\spark-2.1.1\common\tags\target\scala-2.11\classes\org\apache\spark\annotation\Since.class
+binary dependencies:
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\AlphaComponent.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\DeveloperApi.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Experimental.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Private.java -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\package.scala -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\Since.scala -> C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.4\jre64\lib\rt.jar
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\Since.scala -> C:\Users\Administrator\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+source dependencies:
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\AlphaComponent.java -> E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\AlphaComponent.java
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\DeveloperApi.java -> E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\DeveloperApi.java
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Experimental.java -> E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Experimental.java
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Private.java -> E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Private.java
+external dependencies:
+class names:
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\AlphaComponent.java -> org.apache.spark.annotation.AlphaComponent
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\DeveloperApi.java -> org.apache.spark.annotation.DeveloperApi
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Experimental.java -> org.apache.spark.annotation.Experimental
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> org.apache.spark.annotation.InterfaceStability
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> org.apache.spark.annotation.InterfaceStability$Evolving
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> org.apache.spark.annotation.InterfaceStability$Stable
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\InterfaceStability.java -> org.apache.spark.annotation.InterfaceStability$Unstable
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\java\org\apache\spark\annotation\Private.java -> org.apache.spark.annotation.Private
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\package.scala -> org.apache.spark.annotation.package
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\package.scala -> org.apache.spark.annotation.package$
+   E:\CloudMusic\spark-2.1.1\common\tags\src\main\scala\org\apache\spark\annotation\Since.scala -> org.apache.spark.annotation.Since
