@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/external/java8-tests/java8-tests_2.11.iml" filepath="$PROJECT_DIR$/external/java8-tests/java8-tests_2.11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-2-1-1.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-2-1-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-2-1-1-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-2-1-1-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/assembly/spark-assembly_2.11.iml" filepath="$PROJECT_DIR$/assembly/spark-assembly_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/sql/catalyst/spark-catalyst_2.11.iml" filepath="$PROJECT_DIR$/sql/catalyst/spark-catalyst_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/spark-core_2.11.iml" filepath="$PROJECT_DIR$/core/spark-core_2.11.iml" />
@@ -14,7 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/mllib/spark-mllib_2.11.iml" filepath="$PROJECT_DIR$/mllib/spark-mllib_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/network-common/spark-network-common_2.11.iml" filepath="$PROJECT_DIR$/common/network-common/spark-network-common_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/network-shuffle/spark-network-shuffle_2.11.iml" filepath="$PROJECT_DIR$/common/network-shuffle/spark-network-shuffle_2.11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spark-parent_2.11.iml" filepath="$PROJECT_DIR$/spark-parent_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/repl/spark-repl_2.11.iml" filepath="$PROJECT_DIR$/repl/spark-repl_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/sketch/spark-sketch_2.11.iml" filepath="$PROJECT_DIR$/common/sketch/spark-sketch_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/external/kafka-0-10-sql/spark-sql-kafka-0-10_2.11.iml" filepath="$PROJECT_DIR$/external/kafka-0-10-sql/spark-sql-kafka-0-10_2.11.iml" />

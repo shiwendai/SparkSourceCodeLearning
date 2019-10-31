@@ -1,35 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10b3da49-04b9-4230-92d9-c962c1b5f98e" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/common/network-shuffle/target/" />
-    <ignored path="$PROJECT_DIR$/streaming/target/" />
-    <ignored path="$PROJECT_DIR$/common/network-common/target/" />
-    <ignored path="$PROJECT_DIR$/assembly/target/" />
-    <ignored path="$PROJECT_DIR$/core/target/" />
-    <ignored path="$PROJECT_DIR$/external/kafka-0-10-assembly/target/" />
-    <ignored path="$PROJECT_DIR$/external/flume/target/" />
-    <ignored path="$PROJECT_DIR$/common/sketch/target/" />
-    <ignored path="$PROJECT_DIR$/graphx/target/" />
-    <ignored path="$PROJECT_DIR$/tools/target/" />
-    <ignored path="$PROJECT_DIR$/mllib/target/" />
-    <ignored path="$PROJECT_DIR$/sql/catalyst/target/" />
-    <ignored path="$PROJECT_DIR$/external/flume-sink/target/" />
-    <ignored path="$PROJECT_DIR$/mllib-local/target/" />
-    <ignored path="$PROJECT_DIR$/external/kafka-0-8-assembly/target/" />
+    <list default="true" id="2fc44057-d009-4160-af6b-9b8489193f1b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/spark-2-1-1-build.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/spark-2-1-1.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" afterPath="$PROJECT_DIR$/.idea/hydra.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assembly/spark-assembly_2.11.iml" afterPath="$PROJECT_DIR$/assembly/spark-assembly_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/spark-network-common_2.11.iml" afterPath="$PROJECT_DIR$/common/network-common/spark-network-common_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/common/network-shuffle/spark-network-shuffle_2.11.iml" afterPath="$PROJECT_DIR$/common/network-shuffle/spark-network-shuffle_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/common/sketch/spark-sketch_2.11.iml" afterPath="$PROJECT_DIR$/common/sketch/spark-sketch_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/common/tags/spark-tags_2.11.iml" afterPath="$PROJECT_DIR$/common/tags/spark-tags_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/common/unsafe/spark-unsafe_2.11.iml" afterPath="$PROJECT_DIR$/common/unsafe/spark-unsafe_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/examples/spark-examples_2.11.iml" afterPath="$PROJECT_DIR$/examples/spark-examples_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/flume-assembly/spark-streaming-flume-assembly_2.11.iml" afterPath="$PROJECT_DIR$/external/flume-assembly/spark-streaming-flume-assembly_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/flume-sink/spark-streaming-flume-sink_2.11.iml" afterPath="$PROJECT_DIR$/external/flume-sink/spark-streaming-flume-sink_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/flume/spark-streaming-flume_2.11.iml" afterPath="$PROJECT_DIR$/external/flume/spark-streaming-flume_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/java8-tests/java8-tests_2.11.iml" afterPath="$PROJECT_DIR$/external/java8-tests/java8-tests_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/kafka-0-10-assembly/spark-streaming-kafka-0-10-assembly_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-10-assembly/spark-streaming-kafka-0-10-assembly_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/kafka-0-10-sql/spark-sql-kafka-0-10_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-10-sql/spark-sql-kafka-0-10_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/kafka-0-10/spark-streaming-kafka-0-10_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-10/spark-streaming-kafka-0-10_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/kafka-0-8-assembly/spark-streaming-kafka-0-8-assembly_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-8-assembly/spark-streaming-kafka-0-8-assembly_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/external/kafka-0-8/spark-streaming-kafka-0-8_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-8/spark-streaming-kafka-0-8_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/graphx/spark-graphx_2.11.iml" afterPath="$PROJECT_DIR$/graphx/spark-graphx_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/launcher/spark-launcher_2.11.iml" afterPath="$PROJECT_DIR$/launcher/spark-launcher_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/mllib-local/spark-mllib-local_2.11.iml" afterPath="$PROJECT_DIR$/mllib-local/spark-mllib-local_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/mllib/spark-mllib_2.11.iml" afterPath="$PROJECT_DIR$/mllib/spark-mllib_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/repl/spark-repl_2.11.iml" afterPath="$PROJECT_DIR$/repl/spark-repl_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/sql/catalyst/spark-catalyst_2.11.iml" afterPath="$PROJECT_DIR$/sql/catalyst/spark-catalyst_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/sql/core/spark-sql_2.11.iml" afterPath="$PROJECT_DIR$/sql/core/spark-sql_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/sql/hive/spark-hive_2.11.iml" afterPath="$PROJECT_DIR$/sql/hive/spark-hive_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/streaming/spark-streaming_2.11.iml" afterPath="$PROJECT_DIR$/streaming/spark-streaming_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/tools/spark-tools_2.11.iml" afterPath="$PROJECT_DIR$/tools/spark-tools_2.11.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/common/tags/target/" />
-    <ignored path="$PROJECT_DIR$/external/flume-assembly/target/" />
-    <ignored path="$PROJECT_DIR$/external/kafka-0-10/target/" />
-    <ignored path="$PROJECT_DIR$/external/kafka-0-10-sql/target/" />
-    <ignored path="$PROJECT_DIR$/launcher/target/" />
-    <ignored path="$PROJECT_DIR$/external/kafka-0-8/target/" />
-    <ignored path="$PROJECT_DIR$/examples/target/" />
-    <ignored path="$PROJECT_DIR$/sql/core/target/" />
-    <ignored path="$PROJECT_DIR$/sql/hive/target/" />
-    <ignored path="$PROJECT_DIR$/external/java8-tests/target/" />
-    <ignored path="$PROJECT_DIR$/common/unsafe/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/external/flume/target/" />
     <ignored path="$PROJECT_DIR$/repl/target/" />
+    <ignored path="$PROJECT_DIR$/external/flume-assembly/target/" />
+    <ignored path="$PROJECT_DIR$/examples/target/" />
+    <ignored path="$PROJECT_DIR$/external/flume-sink/target/" />
+    <ignored path="$PROJECT_DIR$/external/kafka-0-10-assembly/target/" />
+    <ignored path="$PROJECT_DIR$/streaming/target/" />
+    <ignored path="$PROJECT_DIR$/external/java8-tests/target/" />
+    <ignored path="$PROJECT_DIR$/common/network-shuffle/target/" />
+    <ignored path="$PROJECT_DIR$/common/unsafe/target/" />
+    <ignored path="$PROJECT_DIR$/launcher/target/" />
+    <ignored path="$PROJECT_DIR$/graphx/target/" />
+    <ignored path="$PROJECT_DIR$/mllib-local/target/" />
+    <ignored path="$PROJECT_DIR$/external/kafka-0-10/target/" />
+    <ignored path="$PROJECT_DIR$/sql/catalyst/target/" />
+    <ignored path="$PROJECT_DIR$/sql/hive/target/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/common/tags/target/" />
+    <ignored path="$PROJECT_DIR$/common/network-common/target/" />
+    <ignored path="$PROJECT_DIR$/external/kafka-0-8/target/" />
+    <ignored path="$PROJECT_DIR$/mllib/target/" />
+    <ignored path="$PROJECT_DIR$/common/sketch/target/" />
+    <ignored path="$PROJECT_DIR$/external/kafka-0-8-assembly/target/" />
+    <ignored path="$PROJECT_DIR$/tools/target/" />
+    <ignored path="$PROJECT_DIR$/external/kafka-0-10-sql/target/" />
+    <ignored path="$PROJECT_DIR$/assembly/target/" />
+    <ignored path="$PROJECT_DIR$/sql/core/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,103 +88,45 @@
     <expand />
     <select />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spark-2-1-1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DAGScheduler.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala">
+      <file leaf-file-name="RDD.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33421">
-              <caret line="1799" column="19" lean-forward="false" selection-start-line="1799" selection-start-column="19" selection-end-line="1799" selection-end-column="19" />
+            <state relative-caret-position="1596">
+              <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskSchedulerImpl.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
+      <file leaf-file-name="SchedulerBackend.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulerBackend.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10355">
-              <caret line="577" column="16" lean-forward="false" selection-start-line="577" selection-start-column="16" selection-end-line="577" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoarseGrainedSchedulerBackend.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7942">
-              <caret line="447" column="56" lean-forward="false" selection-start-line="447" selection-start-column="56" selection-end-line="447" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Graph.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/Graph.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VertexRDD.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/VertexRDD.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShippableVertexPartition.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/impl/ShippableVertexPartition.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1558">
-              <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VertexPartitionBase.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBase.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="61" column="50" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VertexPartition.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartition.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EdgePartition.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartition.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="52" column="3" lean-forward="false" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EdgeTriplet.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/EdgeTriplet.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+            <state relative-caret-position="418">
+              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -153,42 +134,9 @@
       </file>
     </leaf>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>case Exe</find>
-      <find>removeDriver</find>
-      <find>removeApp</find>
-      <find>case ReregisterWithMaster</find>
-      <find>connected</find>
-      <find>case Send</find>
-      <find>case Reconn</find>
-      <find>ReconnectWorker</find>
-      <find>case LaunchDriver</find>
-      <find>case LaunchE</find>
-      <find>ap</find>
-      <find>case execut</find>
-      <find>case re</find>
-      <find>StopAppClient</find>
-      <find>RequestExecutors</find>
-      <find>case StopDriver</find>
-      <find>case StopExecutors</find>
-      <find>RegisteredApplication</find>
-      <find>submit</find>
-      <find>revi</find>
-      <find>ReviveOffers</find>
-      <find>ExecutorAllocation</find>
-      <find>val dyna</find>
-      <find>requestTo</find>
-      <find>case WorkerLatestState</find>
-      <find>registeredA</find>
-      <find>registerApp</find>
-      <find>RegisteredApp</find>
-      <find>driverp</find>
-      <find>_dagScheduler != null</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -208,57 +156,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common/unsafe/src/main/java/org/apache/spark/unsafe/memory/HeapMemoryAllocator.java" />
-        <option value="$PROJECT_DIR$/common/unsafe/src/main/java/org/apache/spark/unsafe/memory/UnsafeMemoryAllocator.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/apache/spark/memory/TaskMemoryManager.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/apache/spark/memory/MemoryConsumer.java" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/TaskContextImpl.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/TaskContext.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/Task.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ShuffleMapTask.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/ResultTask.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/WritablePartitionedPairCollection.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/SizeTrackingAppendOnlyMap.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/PartitionedAppendOnlyMap.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/AppendOnlyMap.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/PartitionedPairBuffer.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/storage/DiskBlockObjectWriter.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/Spillable.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/storage/BlockManager.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/ExternalSorter.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/ShuffleWriter.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/ShuffleHandle.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/MapStatus.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/ShuffleBlockResolver.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/Dependency.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/IndexShuffleBlockResolver.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleWriter.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/apache/spark/shuffle/sort/BypassMergeSortShuffleWriter.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/apache/spark/shuffle/sort/UnsafeShuffleWriter.java" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/storage/ShuffleBlockFetcherIterator.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/java/org/apache/spark/shuffle/sort/ShuffleExternalSorter.java" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/BlockStoreShuffleReader.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/collection/ExternalAppendOnlyMap.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleManager.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkContext.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/HeartbeatReceiver.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/executor/Executor.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/master/LeaderElectionAgent.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/master/MasterArguments.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/master/Master.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/worker/DriverRunner.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/worker/ExecutorRunner.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/worker/Worker.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/client/StandaloneAppClient.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/WorkerOffer.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/RpcEndpointAddress.scala" />
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulerBackend.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/ExecutorAllocationManager.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/ExecutorAllocationClient.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/StandaloneSchedulerBackend.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/executor/CoarseGrainedExecutorBackend.scala" />
-        <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/Client.scala" />
       </list>
     </option>
   </component>
@@ -293,7 +191,7 @@
     </treeState>
   </component>
   <component name="MavenRunner">
-    <option name="jreName" value="1.8" />
+    <option name="jreName" value="1.7" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -301,6 +199,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -322,7 +221,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="spark-parent_2.11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-2-1-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-2.1.1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -333,15 +232,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="last_opened_file_path" value="E:/技术资料/oneplus_codeformatter.xml" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Triplet&#9;null&#9;null&#10;EdgePart&#9;null&#9;null&#10;Graph&#9;null&#9;null&#10;SparkContext&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/SparkContext.scala&#10;Registered&#9;null&#9;null&#10;Master&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/deploy/master/Master.scala&#10;Standalone&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/deploy/client/StandaloneAppClient.scala&#10;ClientE&#9;null&#9;null&#10;ClientEnd&#9;null&#9;null&#10;Worker&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/deploy/worker/Worker.scala&#10;CoarseGrainedEx&#9;null&#9;null&#10;ExecutorAllocationListener&#9;null&#9;null&#10;SparkCon&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/SparkContext.scala&#10;ExecutorAllocationM&#9;null&#9;null&#10;LauncherServer&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/launcher/src/main/java/org/apache/spark/launcher/LauncherServer.java&#10;DriverEn&#9;null&#9;null&#10;DriveEn&#9;null&#9;null&#10;Sta&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/scheduler/cluster/StandaloneSchedulerBackend.scala&#10;Client&#9;null&#9;null&#10;SparkSub&#9;null&#9;null&#10;LauncherSer&#9;PSI&#9;JAVA://org.apache.spark.launcher.LauncherServer&#10;StandaloneAppClient&#9;null&#9;null&#10;CoarseGra&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala&#10;StandaloneSchedulerBackend&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/scheduler/cluster/StandaloneSchedulerBackend.scala&#10;LeaderElec&#9;null&#9;null&#10;Persistence&#9;null&#9;null&#10;SchedulerBa&#9;null&#9;null&#10;Executor&#9;null&#9;null&#10;BlockManagerE&#9;null&#9;null&#10;TaskSchedulerIsS&#9;null&#9;null&#10;HeartbeatRe&#9;null&#9;null&#10;lockStoreShuffleReader&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/shuffle/BlockStoreShuffleReader.scala&#10;ShuffleWriter&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/shuffle/ShuffleWriter.scala&#10;SortShuffleManager&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleManager.scala&#10;PartitionedAppendOnlyMap&#9;null&#9;null&#10;ShuffleEx&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/java/org/apache/spark/shuffle/sort/ShuffleExternalSorter.java&#10;ShuffleExeternalSorter&#9;null&#9;null&#10;ExternalSort&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/util/collection/ExternalSorter.scala&#10;BlockStoreShu&#9;null&#9;null&#10;fetchUp&#9;null&#9;null&#10;BlockMan&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/storage/BlockManager.scala&#10;ShuffleBlockF&#9;null&#9;null&#10;MapStatus&#9;null&#9;null&#10;ShuffleHa&#9;null&#9;null&#10;ShuffleManager&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleManager.scala&#10;UnsafeShuffleWriter&#9;PSI&#9;JAVA://org.apache.spark.shuffle.sort.UnsafeShuffleWriter&#10;ShuffleExtern&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/java/org/apache/spark/shuffle/sort/ShuffleExternalSorter.java&#10;DiskBlockObjectWriter&#9;null&#9;null&#10;SortShuffle&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/shuffle/sort/SortShuffleManager.scala&#10;ex&#9;FILE&#9;file://E:/CloudMusic/spark-2.1.1/core/src/main/scala/org/apache/spark/util/collection/ExternalSorter.scala" />
+    <property name="SearchEverywhereHistoryKey" value="Scheduler&#9;null&#9;null&#10;RDD&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -438,8 +337,39 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1569740600655" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="spark-2-1-1" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="spark-2-1-1" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="spark-2-1-1-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="E:/CloudMusic/LearningSpark" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="IMPORT" />
+      </map>
     </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -450,56 +380,52 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="10b3da49-04b9-4230-92d9-c962c1b5f98e" name="Default" comment="" />
-      <created>1545373573488</created>
+      <changelist id="2fc44057-d009-4160-af6b-9b8489193f1b" name="Default" comment="" />
+      <created>1569740595831</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1545373573488</updated>
-      <workItem from="1545373575092" duration="4193000" />
-      <workItem from="1547521956882" duration="53846000" />
-      <workItem from="1564131899330" duration="11680000" />
-      <workItem from="1564380359934" duration="429060000" />
-      <workItem from="1566820352314" duration="84365000" />
-      <workItem from="1567163497729" duration="61456000" />
-      <workItem from="1567562458341" duration="144688000" />
-      <workItem from="1568600711734" duration="28510000" />
-      <workItem from="1569484343842" duration="29962000" />
-      <workItem from="1569737778212" duration="344000" />
+      <updated>1569740595831</updated>
+      <workItem from="1569740597326" duration="5938000" />
+      <workItem from="1571987016107" duration="7232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="848104000" />
+    <option name="totallyTimeSpent" value="13170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4216418" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18230277" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15618336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1684435" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05978261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.089033656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,383 +435,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/ContextCleaner.scala</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="11" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/ThreadUtils.scala">
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="96" column="6" lean-forward="false" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/ExecutorData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskDescription.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSetManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="941" column="6" lean-forward="false" selection-start-line="941" selection-start-column="6" selection-end-line="941" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/SerializableBuffer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/TaskState.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/RpcCallContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDK1.8x64/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="203" column="21" lean-forward="false" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/netty/Dispatcher.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="83" column="6" lean-forward="true" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/RpcAddress.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/RpcEndpointAddress.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="39" column="50" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launcher/src/main/java/org/apache/spark/launcher/SparkAppHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/Command.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launcher/src/main/java/org/apache/spark/launcher/LauncherServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="70" column="64" lean-forward="false" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/client/StandaloneAppClientListener.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        <state relative-caret-position="1596">
+          <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulerBackend.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/RpcEndpointRef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="54" column="6" lean-forward="false" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/netty/NettyRpcEnv.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="214" column="11" lean-forward="true" selection-start-line="214" selection-start-column="11" selection-end-line="214" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/ListenerBus.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/util/Utils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="2485" column="6" lean-forward="false" selection-start-line="2485" selection-start-column="6" selection-end-line="2485" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/ExecutorAllocationManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="346" column="27" lean-forward="true" selection-start-line="346" selection-start-column="27" selection-end-line="346" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/ExecutorAllocationClient.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/StandaloneSchedulerBackend.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/JDK1.8x64/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="963" column="40" lean-forward="true" selection-start-line="963" selection-start-column="40" selection-end-line="963" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkConf.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="54" column="6" lean-forward="false" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/RpcEnv.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="90" column="6" lean-forward="false" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedClusterMessage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="64" column="9" lean-forward="false" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/executor/Executor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="315" column="18" lean-forward="false" selection-start-line="315" selection-start-column="18" selection-end-line="315" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/executor/ExecutorBackend.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/worker/Worker.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="48" column="47" lean-forward="true" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/IterableLike.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/master/WorkerInfo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/WorkerOffer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/Client.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/DeployMessage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rpc/RpcEndpoint.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/client/StandaloneAppClient.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="130" column="66" lean-forward="false" selection-start-line="130" selection-start-column="66" selection-end-line="130" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/deploy/master/Master.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="300" column="45" lean-forward="false" selection-start-line="300" selection-start-column="45" selection-end-line="300" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskScheduler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/executor/CoarseGrainedExecutorBackend.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="48" column="60" lean-forward="false" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/SparkContext.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="1871" column="24" lean-forward="false" selection-start-line="1871" selection-start-column="24" selection-end-line="1871" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/DAGScheduler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33421">
-          <caret line="1799" column="19" lean-forward="false" selection-start-line="1799" selection-start-column="19" selection-end-line="1799" selection-end-column="19" />
+        <state relative-caret-position="456">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/TaskSchedulerImpl.scala">
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10355">
-          <caret line="577" column="16" lean-forward="false" selection-start-line="577" selection-start-column="16" selection-end-line="577" selection-end-column="16" />
+        <state relative-caret-position="1596">
+          <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/cluster/CoarseGrainedSchedulerBackend.scala">
+    <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulerBackend.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7942">
-          <caret line="447" column="56" lean-forward="false" selection-start-line="447" selection-start-column="56" selection-end-line="447" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/Graph.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/VertexRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="60" column="56" lean-forward="false" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/impl/ShippableVertexPartition.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="101" column="20" lean-forward="false" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartitionBase.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="61" column="50" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/impl/VertexPartition.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/impl/EdgePartition.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="52" column="3" lean-forward="false" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphx/src/main/scala/org/apache/spark/graphx/EdgeTriplet.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        <state relative-caret-position="418">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
           <folding />
         </state>
       </provider>
