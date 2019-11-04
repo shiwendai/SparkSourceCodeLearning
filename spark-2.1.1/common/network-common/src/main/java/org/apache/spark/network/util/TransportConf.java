@@ -22,6 +22,7 @@ import com.google.common.primitives.Ints;
 /**
  * A central location that tracks all the settings we expose to users.
  */
+
 // TransportConf是RPC框架中的配置类，由于RPC环境RpcEnv的底层也依赖于数据总线，因此需要创建TransportConf
 public class TransportConf {
 

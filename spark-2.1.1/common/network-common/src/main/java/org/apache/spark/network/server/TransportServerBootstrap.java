@@ -25,6 +25,7 @@ import io.netty.channel.Channel;
  * authentication.
  * 一旦客户端连接到服务器，就在TransportServer的客户端通道上执行的引导程序。 这允许自定义客户端通道以允许诸如SASL身份验证之类的事情。
  */
+
 // 接口TransportServerBootstrap定义了服务端引导程序的规范，服务端引导程序旨在当客户端与服务端建立链接之后，
 // 在服务端持有的客户端管道上执行的引导程序。
 // TransportServerBootstrap 处于Channel 的两个handler之间，起到引导、包装、代理的作用。

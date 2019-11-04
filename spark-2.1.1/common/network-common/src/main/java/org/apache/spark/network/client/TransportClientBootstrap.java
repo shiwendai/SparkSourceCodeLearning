@@ -28,6 +28,7 @@ import io.netty.channel.Channel;
  * reasonable to perform an expensive bootstrapping operation, as they often share a lifespan with
  * the JVM itself.
  */
+
 // TransportClientBootstrap是在 TransportClient 上执行的客户端引导程序，主要对连接建立时进行一些初始化的准备
 // （例如：验证、加密）。TransportClientBootstrap 所做的操作往往是昂贵的，好在建立的连接可以重用。
 public interface TransportClientBootstrap {

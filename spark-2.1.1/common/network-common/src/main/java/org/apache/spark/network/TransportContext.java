@@ -54,6 +54,8 @@ import java.util.List;
  * channel. As each TransportChannelHandler contains a TransportClient, this enables server
  * processes to send messages back to the client on an existing channel.
  */
+// 传输上下文，包含了用于创建传输服务端(TransportServer)和传输客户端工厂(TransportClientFactory)的上下文信息，
+// 并支持使用TransportChannelHandler设置Netty提供的SocketChannel的Pipeline的实现
 public class TransportContext {
   private static final Logger logger = LoggerFactory.getLogger(TransportContext.class);
 
@@ -167,7 +169,7 @@ public class TransportContext {
    * ResponseMessages. The channel is expected to have been successfully created, though certain
    * properties (such as the remoteAddress()) may not be available yet.
    */
-  // 正在创建TransportClient 是在这里发生的。通过TransportClient的构造过程看到RpcHandler 与真正创建TransportClient
+  // 真正创建TransportClient 是在这里发生的。通过TransportClient的构造过程看到RpcHandler 与真正创建TransportClient
   // 毫无关系，TransportClient 只使用 TransportResponseHandler。 TransportChannelHandler在服务端将代理TransportRequestHandler
   // 对请求消息进行处理，并在客户端代理TransportResponseHandler 对响应消息进行处理。
   private TransportChannelHandler createChannelHandler(Channel channel, RpcHandler rpcHandler) {

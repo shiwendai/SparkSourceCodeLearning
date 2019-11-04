@@ -24,6 +24,7 @@ import org.apache.spark.network.protocol.Message;
  * is associated with a single Netty Channel (though it may have multiple clients on the same
  * Channel.)
  */
+
 // MessageHandler 同时也是一个Java 泛型类，其子类能处理的消息都派生自接口Message。
 public abstract class MessageHandler<T extends Message> {
   /** Handles the receipt of a single message. */

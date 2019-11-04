@@ -64,9 +64,13 @@ public class TransportServer implements Closeable {
       int portToBind,
       RpcHandler appRpcHandler,
       List<TransportServerBootstrap> bootstraps) {
+  	// 参数传递的TransportContext的引用
     this.context = context;
+    // 指TransportConf，这里通过调用TransportContext的getConf获取
     this.conf = context.getConf();
+    // RPC 请求处理器RpcHandler
     this.appRpcHandler = appRpcHandler;
+    // 参数传递的TransportServerBootstrap
     this.bootstraps = Lists.newArrayList(Preconditions.checkNotNull(bootstraps));
 
     try {

@@ -99,8 +99,8 @@ public class TransportRequestHandler extends MessageHandler<RequestMessage> {
     rpcHandler.channelInactive(reverseClient);
   }
 
-  // TransportRequestHandler 处理以上4种RequestMessage消息
-	// 最终的处理都由RpcHandler及其内部组件完成。除了OneWayMessage消息外，其余三种消息都是调用respond方法响应客户端。
+  // TransportRequestHandler 处理以上4种RequestMessage消息，最终的处理都由RpcHandler及其内部组件完成。
+  // 除了OneWayMessage消息外，其余三种消息都是调用respond方法响应客户端。
   @Override
   public void handle(RequestMessage request) {
     if (request instanceof ChunkFetchRequest) {

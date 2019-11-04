@@ -47,6 +47,7 @@ import static org.apache.spark.network.util.NettyUtils.getRemoteAddress;
  * on the channel for at least `requestTimeoutMs`. Note that this is duplex traffic; we will not
  * timeout if the client is continuously sending but getting no responses, for simplicity.
  */
+
 // TransportChannelHandler实现了ChannelInboundHandler，以便对Netty管道中的消息进行处理。作为自定义的
 // ChannelInboundHandler，所以都需要重写channelRead方法。Netty框架使用工作链模式来对每个ChannelInboundHandler
 // 的实现类的channelRead 方法进行链式调用。

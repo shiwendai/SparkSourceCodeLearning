@@ -2,42 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fc44057-d009-4160-af6b-9b8489193f1b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/spark-2-1-1-build.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/spark-2-1-1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" afterPath="$PROJECT_DIR$/.idea/hydra.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/../Spark源码笔记/Spark基础设施/_vnote.json" afterPath="$PROJECT_DIR$/../Spark源码笔记/Spark基础设施/_vnote.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assembly/spark-assembly_2.11.iml" afterPath="$PROJECT_DIR$/assembly/spark-assembly_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/common/network-common/spark-network-common_2.11.iml" afterPath="$PROJECT_DIR$/common/network-common/spark-network-common_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/common/network-shuffle/spark-network-shuffle_2.11.iml" afterPath="$PROJECT_DIR$/common/network-shuffle/spark-network-shuffle_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/common/sketch/spark-sketch_2.11.iml" afterPath="$PROJECT_DIR$/common/sketch/spark-sketch_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/common/tags/spark-tags_2.11.iml" afterPath="$PROJECT_DIR$/common/tags/spark-tags_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/common/unsafe/spark-unsafe_2.11.iml" afterPath="$PROJECT_DIR$/common/unsafe/spark-unsafe_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/examples/spark-examples_2.11.iml" afterPath="$PROJECT_DIR$/examples/spark-examples_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/flume-assembly/spark-streaming-flume-assembly_2.11.iml" afterPath="$PROJECT_DIR$/external/flume-assembly/spark-streaming-flume-assembly_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/flume-sink/spark-streaming-flume-sink_2.11.iml" afterPath="$PROJECT_DIR$/external/flume-sink/spark-streaming-flume-sink_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/flume/spark-streaming-flume_2.11.iml" afterPath="$PROJECT_DIR$/external/flume/spark-streaming-flume_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/java8-tests/java8-tests_2.11.iml" afterPath="$PROJECT_DIR$/external/java8-tests/java8-tests_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/kafka-0-10-assembly/spark-streaming-kafka-0-10-assembly_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-10-assembly/spark-streaming-kafka-0-10-assembly_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/kafka-0-10-sql/spark-sql-kafka-0-10_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-10-sql/spark-sql-kafka-0-10_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/kafka-0-10/spark-streaming-kafka-0-10_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-10/spark-streaming-kafka-0-10_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/kafka-0-8-assembly/spark-streaming-kafka-0-8-assembly_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-8-assembly/spark-streaming-kafka-0-8-assembly_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/external/kafka-0-8/spark-streaming-kafka-0-8_2.11.iml" afterPath="$PROJECT_DIR$/external/kafka-0-8/spark-streaming-kafka-0-8_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/graphx/spark-graphx_2.11.iml" afterPath="$PROJECT_DIR$/graphx/spark-graphx_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/launcher/spark-launcher_2.11.iml" afterPath="$PROJECT_DIR$/launcher/spark-launcher_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/mllib-local/spark-mllib-local_2.11.iml" afterPath="$PROJECT_DIR$/mllib-local/spark-mllib-local_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/mllib/spark-mllib_2.11.iml" afterPath="$PROJECT_DIR$/mllib/spark-mllib_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/repl/spark-repl_2.11.iml" afterPath="$PROJECT_DIR$/repl/spark-repl_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/sql/catalyst/spark-catalyst_2.11.iml" afterPath="$PROJECT_DIR$/sql/catalyst/spark-catalyst_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/sql/core/spark-sql_2.11.iml" afterPath="$PROJECT_DIR$/sql/core/spark-sql_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/sql/hive/spark-hive_2.11.iml" afterPath="$PROJECT_DIR$/sql/hive/spark-hive_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/streaming/spark-streaming_2.11.iml" afterPath="$PROJECT_DIR$/streaming/spark-streaming_2.11.iml" />
-      <change beforePath="$PROJECT_DIR$/tools/spark-tools_2.11.iml" afterPath="$PROJECT_DIR$/tools/spark-tools_2.11.iml" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/TransportContext.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/TransportContext.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/buffer/ManagedBuffer.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/buffer/ManagedBuffer.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClient.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClient.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClientBootstrap.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClientBootstrap.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClientFactory.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClientFactory.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportResponseHandler.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportResponseHandler.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/protocol/Message.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/protocol/Message.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/MessageHandler.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/MessageHandler.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/RpcHandler.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/RpcHandler.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportChannelHandler.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportChannelHandler.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportRequestHandler.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportRequestHandler.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServer.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServer.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServerBootstrap.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServerBootstrap.java" />
+      <change beforePath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/util/TransportConf.java" afterPath="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/util/TransportConf.java" />
+      <change beforePath="$PROJECT_DIR$/target/.plxarc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -112,27 +96,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RDD.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
+      <file leaf-file-name="TransportChannelHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportChannelHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchedulerBackend.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulerBackend.scala">
+      <file leaf-file-name="RpcHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/RpcHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="214">
+              <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportRequestHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportRequestHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-551">
+              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneForOneStreamManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/OneForOneStreamManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="77" column="14" lean-forward="false" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/StreamManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="74" column="14" lean-forward="false" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/MessageHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="234" column="79" lean-forward="true" selection-start-line="234" selection-start-column="79" selection-end-line="234" selection-end-column="79" />
+              <folding>
+                <element signature="e#3814#3815#0" expanded="true" />
+                <element signature="e#3838#3839#0" expanded="true" />
+                <element signature="e#10685#11664#0" expanded="true" />
+                <element signature="e#11663#11664#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportResponseHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportResponseHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="e#10499#10500#0" expanded="true" />
+                <element signature="e#10551#10552#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransportServerBootstrap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServerBootstrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>client</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -157,6 +234,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulerBackend.scala" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/util/TransportConf.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClientBootstrap.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClientFactory.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServer.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/TransportContext.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/buffer/ManagedBuffer.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/protocol/Message.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/MessageHandler.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClient.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServerBootstrap.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportChannelHandler.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/RpcHandler.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportRequestHandler.java" />
+        <option value="$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportResponseHandler.java" />
       </list>
     </option>
   </component>
@@ -240,7 +331,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Scheduler&#9;null&#9;null&#10;RDD&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="TransportClient&#9;FILE&#9;file://E:/SourceInsight/SparkSourceCodeLearning/spark-2.1.1/common/network-common/src/main/java/org/apache/spark/network/client/TransportClient.java&#10;TransportServer&#9;PSI&#9;JAVA://org.apache.spark.network.server.TransportServer&#10;TransportRequ&#9;PSI&#9;JAVA://org.apache.spark.network.server.TransportRequestHandler&#10;RpcHand&#9;FILE&#9;file://E:/SourceInsight/SparkSourceCodeLearning/spark-2.1.1/common/network-common/src/main/java/org/apache/spark/network/server/RpcHandler.java&#10;Message&#9;PSI&#9;JAVA://org.apache.spark.network.protocol.Message&#10;MessageH&#9;PSI&#9;JAVA://org.apache.spark.network.server.MessageHandler&#10;TransportClie&#9;PSI&#9;JAVA://org.apache.spark.network.client.TransportClientFactory&#10;TransportConf&#9;PSI&#9;JAVA://org.apache.spark.network.util.TransportConf&#10;TransportContext&#9;PSI&#9;JAVA://org.apache.spark.network.TransportContext&#10;Scheduler&#9;null&#9;null&#10;RDD&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -386,22 +477,21 @@
       <option name="presentableId" value="Default" />
       <updated>1569740595831</updated>
       <workItem from="1569740597326" duration="5938000" />
-      <workItem from="1571987016107" duration="7232000" />
+      <workItem from="1571987016107" duration="20182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13170000" />
+    <option name="totallyTimeSpent" value="26120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18123667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -410,11 +500,13 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1663113" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.073913045" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20042644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -422,10 +514,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05978261" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +525,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -457,7 +549,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
+        <state relative-caret-position="0">
           <caret line="125" column="17" lean-forward="false" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
           <folding />
         </state>
@@ -465,9 +557,234 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/scala/org/apache/spark/scheduler/SchedulerBackend.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="475">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/sasl/SaslClientBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="98" column="13" lean-forward="true" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.42.Final/netty-all-4.0.42.Final-sources.jar!/io/netty/channel/EventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.42.Final/netty-all-4.0.42.Final-sources.jar!/io/netty/channel/EventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.42.Final/netty-all-4.0.42.Final-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="168" column="20" lean-forward="false" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/util/TransportConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClientBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.42.Final/netty-all-4.0.42.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="364" column="13" lean-forward="false" selection-start-line="364" selection-start-column="13" selection-end-line="364" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/test/java/org/apache/spark/network/ChunkFetchIntegrationSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="145" column="43" lean-forward="false" selection-start-line="145" selection-start-column="43" selection-end-line="145" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/test/java/org/apache/spark/network/sasl/SparkSaslSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="422" column="11" lean-forward="false" selection-start-line="422" selection-start-column="11" selection-end-line="422" selection-end-column="11" />
+          <folding>
+            <element signature="e#17022#17023#0" expanded="false" />
+            <element signature="e#17101#17102#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/OneForOneBlockFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="105" column="10" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="289" column="65" lean-forward="false" selection-start-line="289" selection-start-column="65" selection-end-line="289" selection-end-column="65" />
+          <folding>
+            <element signature="e#11154#11433#0" expanded="true" />
+            <element signature="e#11432#11433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/TransportContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="174" column="21" lean-forward="true" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
+          <folding>
+            <element signature="e#4813#4814#0" expanded="false" />
+            <element signature="e#4874#4875#0" expanded="false" />
+            <element signature="e#4931#4932#0" expanded="false" />
+            <element signature="e#5015#5016#0" expanded="false" />
+            <element signature="e#5181#5182#0" expanded="false" />
+            <element signature="e#5259#5260#0" expanded="false" />
+            <element signature="e#5688#5689#0" expanded="false" />
+            <element signature="e#5732#5733#0" expanded="false" />
+            <element signature="e#5933#5934#0" expanded="false" />
+            <element signature="e#5989#5990#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/buffer/ManagedBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/protocol/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-shuffle/src/main/java/org/apache/spark/network/shuffle/ExternalShuffleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/OneForOneStreamManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="77" column="14" lean-forward="false" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/RpcHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/MessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/TransportRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="234" column="79" lean-forward="true" selection-start-line="234" selection-start-column="79" selection-end-line="234" selection-end-column="79" />
+          <folding>
+            <element signature="e#3814#3815#0" expanded="true" />
+            <element signature="e#3838#3839#0" expanded="true" />
+            <element signature="e#10685#11664#0" expanded="true" />
+            <element signature="e#11663#11664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/server/StreamManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="74" column="14" lean-forward="false" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/network-common/src/main/java/org/apache/spark/network/client/TransportResponseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#10499#10500#0" expanded="true" />
+            <element signature="e#10551#10552#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

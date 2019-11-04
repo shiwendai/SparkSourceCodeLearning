@@ -34,6 +34,7 @@ import java.nio.ByteBuffer;
  * In that case, if the buffer is going to be passed around to a different thread, retain/release
  * should be called.
  */
+
 // ManagedBuffer提供了由字节构成数据的不可变视图（也就是说，ManagedBuffer并不存储数据，也不是数据的实际来源，这同关系型数据库的视图类似）
 public abstract class ManagedBuffer {
 

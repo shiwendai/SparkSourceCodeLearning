@@ -56,6 +56,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * TransportClients will be reused whenever possible. Prior to completing the creation of a new
  * TransportClient, all given {@link TransportClientBootstrap}s will be run.
  */
+// TransportClientFactory是创建TransportClient的工厂类，TransportContext的createClientFactory方法可以创建TransportClientFactory
 public class TransportClientFactory implements Closeable {
 
   /** A simple data structure to track the pool of clients between two peer nodes. */
@@ -79,19 +80,23 @@ public class TransportClientFactory implements Closeable {
   private final TransportContext context;
   private final TransportConf conf;
   private final List<TransportClientBootstrap> clientBootstraps;
+
   // 针对每个Socket地址的连接池ClientPool的缓存
   private final ConcurrentHashMap<SocketAddress, ClientPool> connectionPool;
 
   /** Random number generator for picking connections between peers. */
   // 对 Socket 地址对应的连接池 ClientPool 中缓存的 TransportClient 进行随机选择，对每个连接做负载均衡。
   private final Random rand;
+
   // 从TransportConf获取的key为 spark.+模块名+.io.numConnectionsPerPeer 的属性值。此属性值用于指定对等节点间的连接数。
   private final int numConnectionsPerPeer;
 
   // 客户端Channel被创建时使用的类，通过 ioMode 来匹配，默认为 NioSocketChannel.
   private final Class<? extends Channel> socketChannelClass;
+
   // 根据 Netty 的规范，客户端只有 worker 组，所以此处创建 workerGroup。workerGroup的实际类型是NioEventLoopGroup
   private EventLoopGroup workerGroup;
+
   // 汇集 ByteBuf 但对本地线程缓存禁用的分配器。
   private PooledByteBufAllocator pooledAllocator;
 
@@ -135,6 +140,7 @@ public class TransportClientFactory implements Closeable {
     // Get connection from the connection pool first.
     // If it is not found or not active, create a new one.
     // Use unresolved address here to avoid DNS resolution each time we creates a client.
+
 	  // 调用 InetSocketAddress 的静态方法 createUnresolved 构建InetSocketAddress（这种方式创建InetSocketAddress，
 	  // 可以在缓存中已经有TransportClient时避免不必要的域名解析），然后从connectionPool 中获取与此地址对应的ClientPool，
 	  // 如果没有, 则需要新建ClientPool，并放入缓存然后从connectionPool中。
@@ -157,6 +163,7 @@ public class TransportClientFactory implements Closeable {
       // Make sure that the channel will not timeout by updating the last use time of the
       // handler. Then check that the client is still alive, in case it timed out before
       // this code was able to update things.
+
 	    // 更新TransportClient 的 channel 中配置的 TransportChannelHandler的最后一次更新时间，确保channel没有超时
       TransportChannelHandler handler = cachedClient.getChannel().pipeline()
         .get(TransportChannelHandler.class);
@@ -174,6 +181,7 @@ public class TransportClientFactory implements Closeable {
 
     // If we reach here, we don't have an existing connection open. Let's create a new one.
     // Multiple threads might race here to create new connections. Keep only one of them active.
+
 	  // 由于缓存中没有TransportClient可用，于是调用InetsocketAddress对象（直接使用InetSocketAddress的构造器创建
 	  // InetSocketAddress会进行域名解析），在这一步骤多个线程可能会产生竞态条件（由于没有同步处理，所以多个线程极有
 	  // 可能同时执行到此处，都发现没有缓存中没有TransportClient可用，于是都使用InetSocketAddress的构造器创建InetSocketAddress）
@@ -237,8 +245,7 @@ public class TransportClientFactory implements Closeable {
     final AtomicReference<TransportClient> clientRef = new AtomicReference<>();
     final AtomicReference<Channel> channelRef = new AtomicReference<>();
 
-    // 为根引导程序设置管道初始化回到函数， 此回调函数将调用TransportContext的initializePipeline
-	  // 方法初始化Channel的pipeline
+    // 为根引导程序设置管道初始化回到函数， 此回调函数将调用TransportContext的initializePipeline方法初始化Channel的pipeline
     bootstrap.handler(new ChannelInitializer<SocketChannel>() {
       @Override
       public void initChannel(SocketChannel ch) {
@@ -248,8 +255,8 @@ public class TransportClientFactory implements Closeable {
       }
     });
 
-    // 使用根引导程序连接服务器，当连接成功对管道初始化时会回调初始化回调函数，将TransportClient和
-	  // Channel对象分别设置到原子引用clientRef与channelRef中。
+    // 使用根引导程序连接服务器，当连接成功对管道初始化时会回调初始化回调函数，
+	  // 将TransportClient和Channel对象分别设置到原子引用clientRef与channelRef中。
     // Connect to the remote server
     long preConnect = System.nanoTime();
     ChannelFuture cf = bootstrap.connect(address);

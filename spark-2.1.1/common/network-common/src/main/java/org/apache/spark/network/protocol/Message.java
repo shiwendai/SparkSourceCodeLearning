@@ -22,6 +22,7 @@ import io.netty.buffer.ByteBuf;
 import org.apache.spark.network.buffer.ManagedBuffer;
 
 /** An on-the-wire transmittable message. */
+
 // 实现Encodedable接口的类将可以转换到一个ByteBuf中，多个对象将被存储到预先分配的单个ByteBuffer，
 // 所以这里的encodeLength 用于返回转换的对象数量，
 public interface Message extends Encodable {
