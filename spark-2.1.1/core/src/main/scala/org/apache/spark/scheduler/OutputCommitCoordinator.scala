@@ -112,6 +112,7 @@ private[spark] class OutputCommitCoordinator(conf: SparkConf, isDriver: Boolean)
    * @param maxPartitionId the maximum partition id that could appear in this stage's tasks (i.e.
    *                       the maximum possible value of `context.partitionId`).
    */
+
   // 用于启动给定Stage的输出提交到HDFS的协调机制，其实质为创建给定Stage的对应TaskAttemptNumber数组，并将
   // TaskAttemptNumber数组中的所有TaskAttemptNumber置为NO_AUTHORIZED_COMMITTER
   private[scheduler] def stageStart(

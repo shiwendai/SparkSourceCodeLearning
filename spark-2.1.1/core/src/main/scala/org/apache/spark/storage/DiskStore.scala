@@ -40,7 +40,7 @@ private[spark] class DiskStore(conf: SparkConf, diskManager: DiskBlockManager) e
     * 直接映射到内存的一个Buffer中，而这个内存Buffer块就是节点数据的镜像，你直接对这个Buffer进行修改，会影响到节点
     * 数据。这个Buffer叫做MappedBuffer，即镜像Buffer。由于是内存镜像，因此处理速度快。
     */
-  // 读取磁盘中的Block时，是直接读取还是使用FileChannel的内存镜像映射方法读取的阈值
+  // 读取磁盘中的Block时，是直接读取,还是使用FileChannel的内存镜像映射方法读取的阈值
   private val minMemoryMapBytes = conf.getSizeAsBytes("spark.storage.memoryMapThreshold", "2m")
 
   // 获取给定BlockId所对应Block的大小

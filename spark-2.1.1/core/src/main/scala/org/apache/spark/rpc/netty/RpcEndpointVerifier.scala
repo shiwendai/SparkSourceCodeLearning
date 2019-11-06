@@ -32,6 +32,7 @@ private[netty] class RpcEndpointVerifier(override val rpcEnv: RpcEnv, dispatcher
   }
 }
 
+
 private[netty] object RpcEndpointVerifier {
   val NAME = "endpoint-verifier"
 

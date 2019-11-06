@@ -53,7 +53,7 @@ private[netty] class NettyStreamManager(rpcEnv: NettyRpcEnv)
   // openStream从缓存中获取文件后，将TransportConf及File等信息封装为FileSegmentManagedBuffer并返回。
   // 我们通过对FileSegmentManagedBuffer实现的了解，我们知道FileSegmentManagedBuffer封装了对文件的流处理细节。
   // 由于NettyStreamManager只实现了StreamManager的openStream方法，根据对TransportRequestHandler的handle
-  // 方法和processStreamRequest方法的介绍，我们知道NettyStreamManager将值提供对StreamRequest类型消息的处理。
+  // 方法和processStreamRequest方法的介绍，我们知道NettyStreamManager将只提供对StreamRequest类型消息的处理。
   // 各个Executor节点就可以使用Driver节点的RpcEnv提供NettyStreamManger，从Driver将Jar包或文件下载到Executor
   // 节点上供任务执行
   override def openStream(streamId: String): ManagedBuffer = {

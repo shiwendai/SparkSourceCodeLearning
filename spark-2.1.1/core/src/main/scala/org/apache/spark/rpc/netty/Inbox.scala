@@ -102,7 +102,7 @@ private[netty] class Inbox(
 
     }
     while (true) {
-      // 根据消息类型进行匹配，并执行对应逻辑
+      // 根据消息类型进行匹配，并执行对应逻辑。
       // safelyCall 的实现方案值得借鉴，就是当匹配执行过程中发生错误的时候，我们希望当前Inbox所对应RPCEndpoint
       // 的错误处理方法onError可以接收这些错误信息
       safelyCall(endpoint) {

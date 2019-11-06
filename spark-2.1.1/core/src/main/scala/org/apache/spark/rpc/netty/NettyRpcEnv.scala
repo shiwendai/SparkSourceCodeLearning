@@ -92,6 +92,7 @@ private[netty] class NettyRpcEnv(
 
   // clientConnectionExecutor一个用于异步处理TransportClientFactory.createClient方法调用的线程池。这个线程池的大小默认为64
   // 可以使用spark.rpc.connect.threads属性进行配置
+
   // Because TransportClientFactory.createClient is blocking, we need to run it in this thread pool
   // to implement non-blocking send/ask.
   // TODO: a non-blocking TransportClientFactory.createClient in future
@@ -258,7 +259,7 @@ private[netty] class NettyRpcEnv(
         // 发送消息最终通过调用本地Dispatcher的poseLocalMessage方法
         dispatcher.postLocalMessage(message, p)
       } else {
-        // 如果请求消息的接手者的地址与当前NettyRpcEnv的地址不同（则说明处理请求的RpcEndpoint位于其他节点的NettyRpcEnv中），
+        // 如果请求消息的接收者的地址与当前NettyRpcEnv的地址不同（则说明处理请求的RpcEndpoint位于其他节点的NettyRpcEnv中），
         // 那么将message序列化，并与onFailure、onSuccess方法一道封装为RpcOutboxMessage类型的消息。
         val rpcMessage = RpcOutboxMessage(serialize(message),
           onFailure,
@@ -647,7 +648,7 @@ private[netty] class NettyRpcHandler(
       // The remote RpcEnv listens to some port, we should also fire a RemoteProcessConnected for
       // the listening address
       // 如果反序列化得到的请求消息requestMessage中包含了发送者的地址信息，则将TransportClient中获取远端地址RpcAddress与
-      // requestMessage中的发送地址之家的映射放入缓存remoteAddress.
+      // requestMessage中的发送地址之间的映射放入缓存remoteAddress.
       val remoteEnvAddress = requestMessage.senderAddress
       if (remoteAddresses.putIfAbsent(clientAddr, remoteEnvAddress) == null) {
         // 调用dispatcher.postToAll向endpoints缓存的所用EndpointData的inbox中放入RemoteProcessConnected消息。

@@ -29,6 +29,7 @@ import org.apache.spark.annotation.DeveloperApi
  *
  * If your BlockId should be serializable, be sure to add it to the BlockId.apply() method.
  */
+
 // 在Spark的存储体系中，数据的读写也是以块为单位，只不过这个块并非操作系统的块，而是设计用于Spark存储体系的块。
 // 每个Block都有唯一的标识，Spark把这个标识抽象为BlockId.
 @DeveloperApi

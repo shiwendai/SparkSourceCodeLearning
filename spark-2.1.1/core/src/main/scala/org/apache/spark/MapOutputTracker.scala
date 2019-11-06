@@ -132,8 +132,6 @@ private[spark] abstract class MapOutputTracker(conf: SparkConf) extends Logging 
   }
 
 
-  // getMapSizesByExecutorId方法可以通过shuffleId和reduceId获取存储了reduce所需的map中间输出结果的
-  // BlockManager的BlockManagerId,以及map中间输出结果每个Block块的BlockId与大小
   /**
    * Called from executors to get the server URIs and output sizes for each shuffle block that
    * needs to be read from a given reduce task.
@@ -142,6 +140,8 @@ private[spark] abstract class MapOutputTracker(conf: SparkConf) extends Logging 
    *         and the second item is a sequence of (shuffle block id, shuffle block size) tuples
    *         describing the shuffle blocks that are stored at that block manager.
    */
+  // getMapSizesByExecutorId方法可以通过shuffleId和reduceId获取存储了reduce所需的map中间输出结果的
+  // BlockManager的BlockManagerId,以及map中间输出结果每个Block块的BlockId与大小
   def getMapSizesByExecutorId(shuffleId: Int, reduceId: Int)
       : Seq[(BlockManagerId, Seq[(BlockId, Long)])] = {
     getMapSizesByExecutorId(shuffleId, reduceId, reduceId + 1)
@@ -176,8 +176,11 @@ private[spark] abstract class MapOutputTracker(conf: SparkConf) extends Logging 
     val statuses = getStatuses(dep.shuffleId)
     // Synchronize on the returned array because, on the driver, it gets mutated in place
     statuses.synchronized {
+      // 获取reduce数量
       val totalSizes = new Array[Long](dep.partitioner.numPartitions)
+      // 这个循环用于遍历MapTask数量
       for (s <- statuses) {
+        // 这个循环用于获取每个mapTask中的每个reduceTask的数据
         for (i <- 0 until totalSizes.length) {
           totalSizes(i) += s.getSizeForBlock(i)
         }
@@ -194,7 +197,7 @@ private[spark] abstract class MapOutputTracker(conf: SparkConf) extends Logging 
    */
   // 根据shuffleId获取MapStatus（即map状态信息）的数组
   private def getStatuses(shuffleId: Int): Array[MapStatus] = {
-    // 从当前MapOutputTracker的mapStatus缓存中获取MapStatus数组，若没有则进入下一步，否则直接范围MapStatus数组
+    // 从当前MapOutputTracker的mapStatus缓存中获取MapStatus数组，若没有则进入下一步，否则直接返回得到的MapStatus数组
     val statuses = mapStatuses.get(shuffleId).orNull
     if (statuses == null) {
       logInfo("Don't have map outputs for shuffle " + shuffleId + ", fetching them")
@@ -307,7 +310,7 @@ private[spark] class MapOutputTrackerMaster(conf: SparkConf,
   private var cacheEpoch = epoch
 
   // The size at which we use Broadcast to send the map output statuses to the executors
-  // minSizeForBroadcast必须小于maxRpcMessageSize
+  // 用于广播的最小大小。minSizeForBroadcast必须小于maxRpcMessageSize
   private val minSizeForBroadcast =
     conf.getSizeAsBytes("spark.shuffle.mapOutput.minSizeForBroadcast", "512k").toInt
 
@@ -358,11 +361,15 @@ private[spark] class MapOutputTrackerMaster(conf: SparkConf,
   // to ensure we don't block the normal dispatcher threads.
   // 用于获取map输出的固定大小的线程池。此线程池提交的线程都以后台线程运行
   private val threadpool: ThreadPoolExecutor = {
+    // 获取此线程池的大小numThreads。此线程池的大小默认为8
     val numThreads = conf.getInt("spark.shuffle.mapOutput.dispatcher.numThreads", 8)
+    // 创建线程池
     val pool = ThreadUtils.newDaemonFixedThreadPool(numThreads, "map-output-dispatcher")
+    // 启动与线程池大小相同数量的线程，每个线程执行的任务都是MessageLoop
     for (i <- 0 until numThreads) {
       pool.execute(new MessageLoop)
     }
+    // 返回此线程池的引用
     pool
   }
 
@@ -386,6 +393,9 @@ private[spark] class MapOutputTrackerMaster(conf: SparkConf,
       try {
         while (true) {
           try {
+            // 从mapOutputRequests中获取GetMapOutputMessage。由于mapOutputRequests是阻塞队列，
+            // 所以，当mapOutputRequests中没有GetMapOutputMessage时，MessageLoop线程会被阻塞。
+            // GetMapOutputMessage是个样例类，包含了shuffleId和RpcCallContext两个属性。
             val data = mapOutputRequests.take()
              if (data == PoisonPill) {
               // Put PoisonPill back so that other MessageLoops can see it.
@@ -397,7 +407,10 @@ private[spark] class MapOutputTrackerMaster(conf: SparkConf,
             val hostPort = context.senderAddress.hostPort
             logDebug("Handling request to send map output locations for shuffle " + shuffleId +
               " to " + hostPort)
+            // 如果取到的GetMapOutputMessage不是"毒药"，那么调用getSerializedMapOutputStatuses方法获取
+            // GetMapOutputMessage携带的shuffleId所对应的序列化任务状态信息。
             val mapOutputStatuses = getSerializedMapOutputStatuses(shuffleId)
+            // 调用RpcCallContext的回调方法reply，将序列化的map任务状态信息返回给客户端(即其他节点的Executor)
             context.reply(mapOutputStatuses)
           } catch {
             case NonFatal(e) => logError(e.getMessage, e)

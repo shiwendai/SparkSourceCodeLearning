@@ -58,6 +58,7 @@ private[spark] trait RpcEndpoint {
    * Note: Because before `onStart`, [[RpcEndpoint]] has not yet been registered and there is not
    * valid [[RpcEndpointRef]] for it. So don't call `self` before `onStart` is called.
    */
+
   // 获取RpcEndpoint相关联的RpcEndpointRef。实际是调用了RpcEnv的endpointRef方法。
   final def self: RpcEndpointRef = {
     require(rpcEnv != null, "rpcEnv has not been initialized")

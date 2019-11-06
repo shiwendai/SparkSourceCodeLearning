@@ -44,6 +44,7 @@ import org.apache.spark.storage.BlockId
  *                          it if necessary. Cached blocks can be evicted only if actual
  *                          storage memory usage exceeds this region.
  */
+
 // 从Spark 1.6.0版本开始，以UnifiedMemoryManager作为默认的内存管理器。UnifiedMemoryManager提供了统一的内存管理机制，
 // 即Spark应用程序在运行期的存储内存和执行内存将共享统一的内存空间，可以动态调节两块内存的空间大小。UnifiedMemoryManager
 // 在MemoryManager的内存模型之上，将计算内存和存储内存之间的边界修改为“软”边界，即任何一方可以向另一方借用空闲的内存。

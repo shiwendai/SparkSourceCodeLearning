@@ -42,6 +42,7 @@ import org.apache.spark.internal.Logging
  * @param tellMaster whether state changes for this block should be reported to the master. This
  *                   is true for most blocks, but is false for broadcast blocks.
  */
+
 // BlockInfo用于描述块的元数据信息，包括存储级别、Block类型、大小、锁信息等
 private[storage] class BlockInfo(
     val level: StorageLevel,   // BlockInfo所描述的Block的存储级别

@@ -27,7 +27,6 @@ import javax.annotation.concurrent.GuardedBy
   * 部分。堆外内存则是Spark使用sum.misc.Unsafe的API直接在工作节点的系统内存中开辟的空间。无论是那种内存，都需要
   * 一个内存池对内存进行资源管理，抽象类 MemoryPool定义了内存池的规范
   */
-
 /**
  * Manages bookkeeping for an adjustable-sized region of memory. This class is internal to
  * the [[MemoryManager]]. See subclasses for more details.

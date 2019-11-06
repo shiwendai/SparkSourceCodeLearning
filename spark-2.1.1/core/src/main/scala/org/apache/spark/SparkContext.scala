@@ -570,8 +570,11 @@ class SparkContext(config: SparkConf) extends Logging {
     // 基于工作负载，动态创建和删除Executor
     val dynamicAllocationEnabled = Utils.isDynamicAllocationEnabled(_conf)
     _executorAllocationManager =
+      // 判断是否需要启动ExecutorAllocationManager
       if (dynamicAllocationEnabled) {
         schedulerBackend match {
+          // 在SchedulerBackend的实现类同时实现了特质ExecutorAllocationClient的情况下，
+          // 才会创建ExecutorAllocationManager
           case b: ExecutorAllocationClient =>
             Some(new ExecutorAllocationManager(
               schedulerBackend.asInstanceOf[ExecutorAllocationClient], listenerBus, _conf))
@@ -581,6 +584,7 @@ class SparkContext(config: SparkConf) extends Logging {
       } else {
         None
       }
+    // 调用ExecutorAllocationManager的start方法启动ExecutorAllocationManager
     _executorAllocationManager.foreach(_.start())
 
     _cleaner =
@@ -607,7 +611,7 @@ class SparkContext(config: SparkConf) extends Logging {
     // Make sure the context is stopped if the user forgets about it. This avoids leaving
     // unfinished event logs around after the JVM exits cleanly. It doesn't help if the JVM
     // is killed, though.
-    // 添加SparkContext的关闭狗子，使得JVM退出之前调用SparkContext的stop方法进行一些关闭工作。
+    // 添加SparkContext的关闭钩子，使得JVM退出之前调用SparkContext的stop方法进行一些关闭工作。
     logDebug("Adding shutdown hook") // force eager creation of logger
     _shutdownHookRef = ShutdownHookManager.addShutdownHook(
       ShutdownHookManager.SPARK_CONTEXT_SHUTDOWN_PRIORITY) { () =>

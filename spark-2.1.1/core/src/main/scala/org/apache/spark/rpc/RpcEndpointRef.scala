@@ -27,6 +27,7 @@ import org.apache.spark.util.RpcUtils
 /**
  * A reference for a remote [[RpcEndpoint]]. [[RpcEndpointRef]] is thread-safe.
  */
+
 // 要向一个远端的RpcEndPoint发起请求，你就必须持有这个RpcEndpoint的RpcEndpointRef
 // RPC端点引用，即RPC分布式环境中一个具体实体的引用，所谓引用实际是"spark://host:port/name"
 // 这种格式的地址。其中，host为端点所在RPC服务所在的主机IP，port是端点所在RPC服务的端口，name是端点实例的名称

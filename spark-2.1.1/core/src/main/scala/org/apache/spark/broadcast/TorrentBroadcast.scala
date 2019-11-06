@@ -63,6 +63,7 @@ private[spark] class TorrentBroadcast[T: ClassTag](obj: T, id: Long)
    *
    * On the driver, if the value is required, it is read lazily from the block manager.
    */
+
     // 从Executor或者Driver上读取的广播块的值。_value是通过调用readBroadcastBlock方法获得广播对象。
     // 由于_value是个lazy及val修饰的属性，因此在构造TorrentBroadcast实例的时候不会调用readBroadcastBlock方法，
     // 而是等到明确需要使用_value的值

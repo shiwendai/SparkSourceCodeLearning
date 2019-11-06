@@ -43,7 +43,6 @@ public abstract class RpcHandler {
    * @param callback Callback which should be invoked exactly once upon success or failure of the
    *                 RPC.
    */
-
   // 这是一个抽象方法，用来接收单一的RPC消息，具体处理逻辑需要子类去实现。RpcResponseCallback用于对请求处理
   // 结束后进行回调，无论处理结果是成功还是失败，RpcResponseCallback都会被调用一次。
   public abstract void receive(

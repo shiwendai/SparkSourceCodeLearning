@@ -595,7 +595,6 @@ private[spark] class MemoryStore(
         }
       }
 
-
       if (freedMemory >= space) { // 通过驱逐可以为存储Block提供足够的空间，则进行驱逐
         // 如果freedMemory大于等于space，这说明通过驱逐一定数量的Block，已经为存储blockId对应的Block腾出了足够的内存空间，
         logInfo(s"${selectedBlocks.size} blocks selected for dropping " +

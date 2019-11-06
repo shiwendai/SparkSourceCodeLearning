@@ -33,6 +33,7 @@ import org.apache.spark.util.Utils
  * has started will events be actually propagated to all attached listeners. This listener bus
  * is stopped when `stop()` is called, and it will drop further events after stopping.
  */
+// 实现了将事件异步投递给监听器，达到实时刷新UI界面数据的效果
 private[spark] class LiveListenerBus(val sparkContext: SparkContext) extends SparkListenerBus {
 
   self =>
@@ -42,6 +43,7 @@ private[spark] class LiveListenerBus(val sparkContext: SparkContext) extends Spa
   // Cap the capacity of the event queue so we get an explicit error (rather than
   // an OOM exception) if it's perpetually being added to more quickly than it's being drained.
   private lazy val EVENT_QUEUE_CAPACITY = validateAndGetQueueSize()
+
   // 是SparkListenerEvent事件的阻塞队列
   private lazy val eventQueue = new LinkedBlockingQueue[SparkListenerEvent](EVENT_QUEUE_CAPACITY)
 
@@ -54,8 +56,11 @@ private[spark] class LiveListenerBus(val sparkContext: SparkContext) extends Spa
   }
 
   // Indicate if `start()` is called
+  // 标记LiveListenerBus的启动状态的AtomicBoolean类型的变量
   private val started = new AtomicBoolean(false)
+
   // Indicate if `stop()` is called
+  // 标记LiveListenerBus的停止状态的AtomicBoolean类型的变量
   private val stopped = new AtomicBoolean(false)
 
   // 使用AtomicLong类型对删除的事件进行计数，每当日志打印了droppedEventsCounter后，会将droppedEventsCounter重置为0
@@ -139,12 +144,13 @@ private[spark] class LiveListenerBus(val sparkContext: SparkContext) extends Spa
       logError(s"$name has already stopped! Dropping event $event")
       return
     }
-    // 向eventQueue中添加事件，如果添加成功，则释放信号量，进而催化listenerThread有效工作。
-    // 如果eventQueue已满造成添加失败，则移除事件，并对删除事件计算器droppedEventsCounter进行自增
+    // 向eventQueue中添加事件
     val eventAdded = eventQueue.offer(event)
     if (eventAdded) {
+      // 如果添加成功，则释放信号量，进而催化listenerThread有效工作。
       eventLock.release()
     } else {
+      // 如果eventQueue已满造成添加失败，则移除事件，并对删除事件计算器droppedEventsCounter进行自增
       onDropEvent(event)
       droppedEventsCounter.incrementAndGet()
     }

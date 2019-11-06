@@ -46,7 +46,7 @@ private[netty] class Dispatcher(nettyEnv: NettyRpcEnv) extends Logging {
   private val endpoints: ConcurrentMap[String, EndpointData] =
     new ConcurrentHashMap[String, EndpointData]
 
-  // 端点实例RpcEndpoint和端点实例引用RpcEndpointRef之家的映射关系缓存。
+  // 端点实例RpcEndpoint和端点实例引用RpcEndpointRef之间的映射关系缓存。
   private val endpointRefs: ConcurrentMap[RpcEndpoint, RpcEndpointRef] =
     new ConcurrentHashMap[RpcEndpoint, RpcEndpointRef]
 
@@ -226,6 +226,7 @@ private[netty] class Dispatcher(nettyEnv: NettyRpcEnv) extends Logging {
   }
 
   /** Message loop used for dispatching messages. */
+  // MessageLoop任务实际是将消息交给EndpointData中Inbox的process方法处理
   private class MessageLoop extends Runnable {
     override def run(): Unit = {
       try {

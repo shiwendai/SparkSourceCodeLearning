@@ -33,6 +33,7 @@ import org.apache.spark.util.Utils
  * of ID objects. Also, constructor parameters are private to ensure that parameters cannot be
  * modified from outside this class.
  */
+
 // BlockManagerId 是 BlockManager的唯一标识
 @DeveloperApi
 class BlockManagerId private (

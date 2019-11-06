@@ -32,6 +32,7 @@ import org.apache.spark.util.{ShutdownHookManager, Utils}
  * Block files are hashed among the directories listed in spark.local.dir (or in
  * SPARK_LOCAL_DIRS, if it's set).
  */
+
 // 它负责为逻辑的Block与数据写入磁盘的位置之间建立逻辑的映射关系
 // deleteFilesOnStop： 停止DiskBlockManager的时候是否删除本地目录的布尔类型标记。
 // 当不指定外部的ShuffleClient或者当前实例是Driver时，此属性为true
@@ -133,7 +134,7 @@ private[spark] class DiskBlockManager(conf: SparkConf, deleteFilesOnStop: Boolea
   }
 
   /** Produces a unique block id and File suitable for storing shuffled intermediate results. */
-  // 此方法创建唯一的BlockId和文件，用来存储Shuffleh中间结果（即map任务的输出）
+  // 此方法创建唯一的BlockId和文件，用来存储Shuffle中间结果（即map任务的输出）
   def createTempShuffleBlock(): (TempShuffleBlockId, File) = {
     var blockId = new TempShuffleBlockId(UUID.randomUUID())
     while (getFile(blockId).exists()) {

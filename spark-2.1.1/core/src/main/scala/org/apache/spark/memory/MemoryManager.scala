@@ -34,6 +34,7 @@ import org.apache.spark.unsafe.memory.MemoryAllocator
  * sorts and aggregations, while storage memory refers to that used for caching and propagating
  * internal data across the cluster. There exists one MemoryManager per JVM.
  */
+
 // MemoryManager对存储体系和内存计算所使用的内存进行管理
 private[spark] abstract class MemoryManager(
     conf: SparkConf,

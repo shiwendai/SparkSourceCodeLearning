@@ -25,7 +25,7 @@ import org.apache.spark.util.ListenerBus
 private[spark] trait SparkListenerBus
   extends ListenerBus[SparkListenerInterface, SparkListenerEvent] {
 
-  // 通过对SparkListenerEvent事件的匹配，执行SparkListenerInterface监听器的相应方法
+  //  通过对SparkListenerEvent事件的匹配，执行SparkListenerInterface监听器的相应方法
   protected override def doPostEvent(
       listener: SparkListenerInterface,
       event: SparkListenerEvent): Unit = {

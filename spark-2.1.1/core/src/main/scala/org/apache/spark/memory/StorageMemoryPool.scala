@@ -30,6 +30,7 @@ import org.apache.spark.storage.memory.MemoryStore
  * @param lock a [[MemoryManager]] instance to synchronize on
  * @param memoryMode the type of memory tracked by this pool (on- or off-heap)
  */
+
 // StorageMemoryPool是对用于存储的物理内存的逻辑抽象，通过对存储内存的逻辑管理，提高Spark存储体系对内存的使用效率。
 private[memory] class StorageMemoryPool(
     lock: Object,

@@ -52,6 +52,7 @@ import org.apache.spark.util.{RpcUtils, Utils}
  * NOTE: This is not intended for external use. This is exposed for Shark and may be made private
  *       in a future release.
  */
+
 // Spark对任务的计算都依托于Executor的能力，所有的Executor都有自己的Spark执行环境SparkEnv。有了SparkEnv,
 // 就可以将数据存储在存储体系中；就能利用计算引擎对计算任务进行处理，就可以在节点间进行通信等。SparkEnv还提供
 // 了多种多样的内部组件，实现不同功能。SparkEnv是一个很重要的的组件。
@@ -311,13 +312,13 @@ object SparkEnv extends Logging {
     val broadcastManager = new BroadcastManager(isDriver, conf, securityManager)
 
 
-    // 如果当前程序是Driver，则创建MapOutputTrackerMaster，然后创建MapOutputTrackerMasterEndpoint,并且注册到Dispatcher中，
-    // 注册名为MapOutputTracker。
-    // 如果当前程序是Executor，则创建MapOutputTrackerWorker,并从远端Driver实例的NettyRpcEnv的Dispatcher中查找
-    // MapOutputTrackerMasterEndpoint的引用。
     val mapOutputTracker = if (isDriver) {
+      // 如果当前程序是Driver，则创建MapOutputTrackerMaster，注册名为MapOutputTracker。
+      // 然后创建MapOutputTrackerMasterEndpoint,并且注册到Dispatcher中，
       new MapOutputTrackerMaster(conf, broadcastManager, isLocal)
     } else {
+      // 如果当前程序是Executor，则创建MapOutputTrackerWorker,并从远端Driver实例的NettyRpcEnv的Dispatcher中查找
+      // MapOutputTrackerMasterEndpoint的引用。
       new MapOutputTrackerWorker(conf)
     }
 

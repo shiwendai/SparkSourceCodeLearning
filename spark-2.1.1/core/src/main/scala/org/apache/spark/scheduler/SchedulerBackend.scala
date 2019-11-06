@@ -63,8 +63,8 @@ private[spark] trait SchedulerBackend {
    *
    * @return The application attempt id, if available.
    */
-  // 当引用程序在cluster模式运行且集群管理器支持应用进行多次执行尝试时，此方法可以获取应用程序尝试的标识。
-  // 当引用程序在client模式运行时，将不支持多次尝试，因此此方法不会获取到应用程序尝试的标识
+  // 当应用程序在cluster模式运行且集群管理器支持应用进行多次执行尝试时，此方法可以获取应用程序尝试的标识。
+  // 当应用程序在client模式运行时，将不支持多次尝试，因此此方法不会获取到应用程序尝试的标识
   def applicationAttemptId(): Option[String] = None
 
   /**
