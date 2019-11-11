@@ -325,6 +325,7 @@ class BlockManagerMasterEndpoint(
       slaveEndpoint: RpcEndpointRef): BlockManagerId = {
     // the dummy id is not expected to contain the topology information.
     // we get that info here and respond back with a more fleshed out block manager id
+    // 生成BlockManagerId
     val id = BlockManagerId(
       idWithoutTopologyInfo.executorId,
       idWithoutTopologyInfo.host,
@@ -332,6 +333,8 @@ class BlockManagerMasterEndpoint(
       topologyMapper.getTopologyForHost(idWithoutTopologyInfo.host))
 
     val time = System.currentTimeMillis()
+    // 如果blockManagerInfo缓存中不存在此BlockManagerId，则进入下一步，
+    // 否则直接向listenerBus投递SparkListenerBlockManagerAdded事件
     if (!blockManagerInfo.contains(id)) {
       blockManagerIdByExecutor.get(id.executorId) match {
         case Some(oldId) =>
@@ -345,11 +348,14 @@ class BlockManagerMasterEndpoint(
       logInfo("Registering block manager %s with %s RAM, %s".format(
         id.hostPort, Utils.bytesToString(maxMemSize), id))
 
+      // 将executorId与新创建的BlockManagerId的对应关系添加到blockManagerIdByExecutor中
       blockManagerIdByExecutor(id.executorId) = id
 
+      // 将BlockManagerId与BlockManagerInfo的对应关系添加到缓存BlockManagerInfo
       blockManagerInfo(id) = new BlockManagerInfo(
         id, System.currentTimeMillis(), maxMemSize, slaveEndpoint)
     }
+    // 向listenerBus投递SparkListenerBlockManagerAdded事件
     listenerBus.post(SparkListenerBlockManagerAdded(time, id, maxMemSize))
     id
   }

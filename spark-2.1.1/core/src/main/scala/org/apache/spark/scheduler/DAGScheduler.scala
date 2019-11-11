@@ -211,7 +211,7 @@ class DAGScheduler(
   /** If enabled, FetchFailed will not cause stage retry, in order to surface the problem. */
   private val disallowStageRetryForTest = sc.getConf.getBoolean("spark.test.noStageRetry", false)
 
-  // 是有一个线程的ScheduledThreadPoolExecutor，messageScheduler的职责是对失败的Stage进行重试
+  // 只有一个线程的ScheduledThreadPoolExecutor，messageScheduler的职责是对失败的Stage进行重试
   private val messageScheduler =
     ThreadUtils.newDaemonSingleThreadScheduledExecutor("dag-scheduler-message")
 
@@ -392,7 +392,6 @@ class DAGScheduler(
     updateJobIdStageIdMaps(jobId, stage)
 
     // 调用MapOutputTrackerMaster的containsShuffle方法查看是否已经存在shuffleId对应的MapStatus.
-
     if (mapOutputTracker.containsShuffle(shuffleDep.shuffleId)) {
       // A previously run stage generated partitions for this shuffle, so for each output
       // that's still available, copy information about that output location to the new stage
@@ -576,14 +575,18 @@ class DAGScheduler(
    * Registers the given jobId among the jobs that need the given stage and
    * all of that stage's ancestors.
    */
+  // updateJobIdStageIdMaps方法对Stage及Stage的所有祖先Stage进行如下处理
   // 用来更新JobId与Stage及其所有祖先的映射关系
   private def updateJobIdStageIdMaps(jobId: Int, stage: Stage): Unit = {
     @tailrec
     def updateJobIdStageIdMapsList(stages: List[Stage]) {
       if (stages.nonEmpty) {
         val s = stages.head
+        // 将jobId添加到每个Stage的jobIds
         s.jobIds += jobId
+        // 将jobId和与每个Stage的id之间的映射关系更新到jobidToStageIds
         jobIdToStageIds.getOrElseUpdate(jobId, new HashSet[Int]()) += s.id
+
         val parentsWithoutThisJobId = s.parents.filter { ! _.jobIds.contains(jobId) }
         updateJobIdStageIdMapsList(parentsWithoutThisJobId ++ stages.tail)
       }
@@ -686,7 +689,7 @@ class DAGScheduler(
     // 生成下一个Job的jobId
     val jobId = nextJobId.getAndIncrement()
     if (partitions.size == 0) {
-      // 如果Job的分区数量大于0，则创建一个totalTasks属性为0的JobWaiter并返回。
+      // 如果Job的分区数量等于0，则创建一个totalTasks属性为0的JobWaiter并返回。
       // 根据JobWaiter的实现，JobWaiter的jobPromise将被设置为Success
       // Return immediately if the job is running 0 tasks
       return new JobWaiter[U](this, jobId, 0, resultHandler)
@@ -1160,7 +1163,7 @@ class DAGScheduler(
         case stage: ResultStage =>
           JavaUtils.bufferToArray(closureSerializer.serialize((stage.rdd, stage.func): AnyRef))
       }
-      // 调用SparkContext的braodcast方法广播上一步生成的序列化对象
+      // 调用SparkContext的broadcast方法广播上一步生成的序列化对象
       taskBinary = sc.broadcast(taskBinaryBytes)
     } catch {
       // In the case of a failure during serialization, abort the stage.

@@ -45,7 +45,7 @@ private[spark] class ActiveJob(
     val finalStage: Stage, // Job的最下游Stage
     val callSite: CallSite, // 应用程序调用栈
     val listener: JobListener, // 监听当前Job的JobListener
-    val properties: Properties) { // 包含了当前Job的调度、Job Group、描述等属性的Properties
+    val properties: Properties) { // 包含了当前Job的调度、Job Group、描述等属性的 Properties
 
   /**
    * Number of partitions we need to compute for this job. Note that result stages may not need

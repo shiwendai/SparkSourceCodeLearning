@@ -39,14 +39,16 @@ public class OneForOneStreamManager extends StreamManager {
 
   // 用于生成数据流的标识
   private final AtomicLong nextStreamId;
+
   // 维护StreamId 和 StreamState之间映射关系的缓存
   private final ConcurrentHashMap<Long, StreamState> streams;
 
   /** State of a single stream. */
   // OneForOneStreamManager使用StreamState来维护流的状态
   private static class StreamState {
-  	// 请求流所属的引用程序ID。此属性只有在ExternalShuffleClient启用后才会用到。
+  	// 请求流所属的应用程序ID。此属性只有在ExternalShuffleClient启用后才会用到。
     final String appId;
+
     // ManagedBuffer的缓冲
     final Iterator<ManagedBuffer> buffers;
 

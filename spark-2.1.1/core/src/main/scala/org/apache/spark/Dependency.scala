@@ -68,7 +68,7 @@ abstract class NarrowDependency[T](_rdd: RDD[T]) extends Dependency[T] {
  * @param aggregator map/reduce-side aggregator for RDD's shuffle
  * @param mapSideCombine whether to perform partial aggregation (also known as map-side combine)
  */
-// RDD 与上游RDD的分区如果不是一对一的关系，或者RDD的分区依赖于上游RDD的多个分区
+// RDD与上游RDD的分区如果不是一对一的关系，或者RDD的分区依赖于上游RDD的多个分区
 @DeveloperApi
 class ShuffleDependency[K: ClassTag, V: ClassTag, C: ClassTag](
     @transient private val _rdd: RDD[_ <: Product2[K, V]], // 泛型要求必须是Product2[K, v]及其子类
@@ -95,7 +95,7 @@ class ShuffleDependency[K: ClassTag, V: ClassTag, C: ClassTag](
   // 当前ShuffleDependency的身份标识
   val shuffleId: Int = _rdd.context.newShuffleId()
 
-  // 当前ShuffleDempendency的处理器
+  // 当前ShuffleDependency的处理器
   val shuffleHandle: ShuffleHandle = _rdd.context.env.shuffleManager.registerShuffle(
     shuffleId, _rdd.partitions.length, this)
 

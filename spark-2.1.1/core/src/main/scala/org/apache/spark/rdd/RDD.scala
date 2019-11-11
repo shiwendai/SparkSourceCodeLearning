@@ -284,7 +284,7 @@ abstract class RDD[T: ClassTag](
    * RDD is checkpointed.
    */
   // preferredLocations方法优先调用checkpointRDD中保存的RDD的getPreferredLocations，
-  // 如果没有保存CheckPoint时，调用自身的getPreferredLocations方法获取指定分区的偏好位置
+  // 如果没有保存CheckPoint时，调用自身的 getPreferredLocations方法获取指定分区的偏好位置
   final def preferredLocations(split: Partition): Seq[String] = {
     checkpointRDD.map(_.getPreferredLocations(split)).getOrElse {
       getPreferredLocations(split)

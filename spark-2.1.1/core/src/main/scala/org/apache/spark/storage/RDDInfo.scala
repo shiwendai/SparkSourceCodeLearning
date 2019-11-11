@@ -27,7 +27,7 @@ class RDDInfo(
     var name: String,  // RDD 的名称
     val numPartitions: Int, // RDD 的分区数
     var storageLevel: StorageLevel, // RDD 的存储级别
-    val parentIds: Seq[Int], // RDD 的父RDD的id序列
+    val parentIds: Seq[Int], // RDD 的父RDD的 id 序列
     val callSite: String = "", // RDD 的用户调用栈信息
     val scope: Option[RDDOperationScope] = None)
   extends Ordered[RDDInfo] {

@@ -47,7 +47,7 @@ private[spark] class ShuffleMapStage(
   // 与ShuffleMapStage相关联的ActiveJob的列表
   private[this] var _mapStageJobs: List[ActiveJob] = Nil
 
-  // ShuffleMapStage可用的map任务的输出数量，这样代表了执行成功的map任务数
+  // ShuffleMapStage 可用的 map任务的输出数量，这样代表了执行成功的map任务数
   private[this] var _numAvailableOutputs: Int = 0
 
   /**

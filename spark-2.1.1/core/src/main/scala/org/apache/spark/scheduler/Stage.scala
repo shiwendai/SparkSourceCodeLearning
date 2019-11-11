@@ -66,7 +66,7 @@ private[scheduler] abstract class Stage(
   // 当前Stage的分区数
   val numPartitions = rdd.partitions.length
 
-  // 当前Stage所属的Job的身份标识集合，这说明一个Stage可以属于一到过个Job
+  // 当前 Stage 所属的Job的身份标识集合，这说明一个Stage可以属于一到过个Job
   /** Set of jobs that this stage belongs to. */
   val jobIds = new HashSet[Int]
 

@@ -92,7 +92,7 @@ public class OneForOneBlockFetcher {
    * The given message will be serialized with the Java serializer, and the RPC must return a
    * {@link StreamHandle}. We will send all fetch requests immediately, without throttling.
    */
-  // OneForOneBlockFetcher的start方法用于获取远端BLock
+  // OneForOneBlockFetcher的start方法用于获取远端Block
   public void start() {
   	// 校验要获取的Block的数量
     if (blockIds.length == 0) {

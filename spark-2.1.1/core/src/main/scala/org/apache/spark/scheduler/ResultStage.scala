@@ -27,7 +27,7 @@ import org.apache.spark.util.CallSite
  * partition, and the set of partition IDs, `partitions`. Some stages may not run on all partitions
  * of the RDD, for actions like first() and lookup().
  */
-// ResultStage可以使用指定的函数对RDD中的分区进行计算并得出最终结果。ResultStage是最后执行的Stage，此阶段主要进行作业的首位工作
+// ResultStage可以使用指定的函数对RDD中的分区进行计算并得出最终结果。ResultStage是最后执行的Stage，此阶段主要进行作业的收尾工作
 private[spark] class ResultStage(
     id: Int,
     rdd: RDD[_],
@@ -42,7 +42,7 @@ private[spark] class ResultStage(
    * The active job for this result stage. Will be empty if the job has already finished
    * (e.g., because the job was cancelled).
    */
-  // ResultStage处理的ActiveJob
+  // ResultStage 处理的 ActiveJob
   private[this] var _activeJob: Option[ActiveJob] = None
 
   def activeJob: Option[ActiveJob] = _activeJob

@@ -19,6 +19,7 @@ package org.apache.spark.scheduler
 
 
 // Job执行成功后将调用JobListener定义的taskSuccessded方法，而在Job失败后调用JobListener定义的jobFailed方法
+
 /**
  * Interface used to listen for job completion or failure events after submitting a job to the
  * DAGScheduler. The listener is notified each time a task succeeds, as well as if the whole

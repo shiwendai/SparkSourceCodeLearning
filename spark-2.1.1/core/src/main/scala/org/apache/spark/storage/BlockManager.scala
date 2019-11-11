@@ -967,7 +967,7 @@ private[spark] class BlockManager(
 
       // 调用getCurrentBlockStatus方法获取当前Block的状态。
       val putBlockStatus = getCurrentBlockStatus(blockId, info)
-      // 如果此状态说明Block数据成功存储到存储体系，
+      // 如果有此状态说明Block数据成功存储到存储体系，
       val blockWasSuccessfullyStored = putBlockStatus.storageLevel.isValid
       if (blockWasSuccessfullyStored) {
         // Now that the block is in either the memory or disk store,

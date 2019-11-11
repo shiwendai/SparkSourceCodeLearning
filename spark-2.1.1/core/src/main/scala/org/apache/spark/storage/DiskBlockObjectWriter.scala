@@ -170,7 +170,7 @@ private[spark] class DiskBlockObjectWriter(
    * @return file segment with previous offset and length committed on this call.
    */
   // 用于将输出流中的数据写入磁盘
-  // commitAndGet方法将数据写入都文件后，创建FileSegment并返回。FileSegment包含文件、写入的起始偏移量、写入的长度等信息
+  // commitAndGet方法将数据写入到文件后，创建FileSegment并返回。FileSegment包含文件、写入的起始偏移量、写入的长度等信息
   def commitAndGet(): FileSegment = {
     if (streamOpen) {
       // NOTE: Because Kryo doesn't flush the underlying stream we explicitly flush both the

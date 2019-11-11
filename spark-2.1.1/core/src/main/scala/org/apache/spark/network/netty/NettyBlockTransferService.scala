@@ -66,7 +66,7 @@ private[spark] class NettyBlockTransferService(
   private[this] var appId: String = _
 
   // NettyBlockTransferService只有在其init方法被调用，即被初始化之后才提供服务。BlockManager在初始化的时候，
-  // 将调用NettyBlockTransferService的ini方法。
+  // 将调用NettyBlockTransferService的init方法。
   override def init(blockDataManager: BlockDataManager): Unit = {
     // 创建NettyBlockRpcServer.NettyBlockRpcServer继承了我们熟悉的RpcHandler,服务端对客户端的Block读写
     // 请求的处理都交给了RpcHandler的实现类，因此NettyBlockRpcServer将处理Block块的RPC请求。
@@ -159,7 +159,7 @@ private[spark] class NettyBlockTransferService(
     // Everything else is encoded using our binary protocol.
     val metadata = JavaUtils.bufferToArray(serializer.newInstance().serialize((level, classTag)))
 
-    // ManagedBuffer.nioByteBuffer方法将Block的数据转换货这复制为Nio的ByteBuffer
+    // ManagedBuffer.nioByteBuffer方法将Block的数据转换或者复制为Nio的ByteBuffer
     // Convert or copy nio buffer into array in order to serialize it.
     val array = JavaUtils.bufferToArray(blockData.nioByteBuffer())
 

@@ -95,7 +95,7 @@ private[spark] object StageInfo {
     // 并调用RDDInfo.fromRdd方法创建RDDInfo
     val ancestorRddInfos = stage.rdd.getNarrowAncestors.map(RDDInfo.fromRdd)
 
-    // 给当前RDD创建对应的RDDInfo，并存入和ancestorRddInfos一起存入到rddInfos
+    // 给当前RDD创建对应的RDDInfo，将上一步中创建的所有RDDInfo对象也此RDDInfo对象放入序列rddInfos中
     val rddInfos = Seq(RDDInfo.fromRdd(stage.rdd)) ++ ancestorRddInfos
 
     // 创建StageInfo
