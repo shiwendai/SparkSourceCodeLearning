@@ -34,8 +34,10 @@ private[spark] abstract class LauncherBackend {
 
   // 读取与LauncherServer建立的Socket连接上的消息的线程
   private var clientThread: Thread = _
+
   // 即BackendConnection实例
   private var connection: BackendConnection = _
+
   // LauncherBackend的最后一次状态。lastState的类型是枚举类型SparkAppHandle.State，拥有以下几种状态：
   // UNKNOWN(false) CONNECTED(false) SUBMITTED(false) RUNNING(false) FINISHED(true) FAILED(true) KILLED(true) LOST(true)
   private var lastState: SparkAppHandle.State = _

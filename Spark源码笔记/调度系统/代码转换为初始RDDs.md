@@ -4,11 +4,11 @@
 
 如果多次调用action类操作，那么封装的多个RDD作为多个Job提交。
 
-流程如下：
+**流程如下：**
 
 ![](_v_images/_1573180822_25942.png)
 
-ExecuteEnv(执行环境)
+**ExecuteEnv(执行环境)**
 
 * 1.这里可以是通过spark-submit提交的MainClass, 也可以spark-shell 脚本。
 
@@ -16,7 +16,7 @@ ExecuteEnv(执行环境)
 
 * 3.**spark-shell**: 默认会创建一个 SparkContext
 
-RDD（弹性分布式数据集）
+**RDD（弹性分布式数据集）**
 
 * 1.create：可以直接创建（如：sc.parallelize(1 until n, slices) ）,也可以在其他地方读取（如：sc.textFile("README.md")）等
 
@@ -34,6 +34,10 @@ RDD（弹性分布式数据集）
 
 * 8.JobSubmitted：相关代码如下（其中jobId为DAGScheduler全局递增Id）：
 
+**最终实例：**
 
+![](_v_images/_1573181766_8678.png)
+
+最终转化的RDD分为四层，每层都依赖于上层RDD，将ShffleRDD封装为一个Job存入DAGSchedulerEventProcessLoop待处理，如果我们的代码中存在几段上面示例代码，那么就会创建对应对的几个ShffleRDD分别存入DAGSchedulerEventProcessLoop
 
 

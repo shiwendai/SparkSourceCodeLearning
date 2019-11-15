@@ -44,8 +44,6 @@ private[spark] trait SchedulableBuilder {
 }
 
 
-
-
 private[spark] class FIFOSchedulableBuilder(val rootPool: Pool)
   extends SchedulableBuilder with Logging {
 
@@ -57,8 +55,6 @@ private[spark] class FIFOSchedulableBuilder(val rootPool: Pool)
     rootPool.addSchedulable(manager)
   }
 }
-
-
 
 
 private[spark] class FairSchedulableBuilder(val rootPool: Pool, conf: SparkConf)

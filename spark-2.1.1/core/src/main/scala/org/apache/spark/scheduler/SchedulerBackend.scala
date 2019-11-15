@@ -30,7 +30,6 @@ private[spark] trait SchedulerBackend {
   // SchedulerBackend给Task分配完资源后将与分配给Task的Executor通信，并要求后者运行Task。
   // 特质SchedulerBackend定义了所有调度后端接口的行为规范
 
-
   // 与当前Job相关联的应用程序的身份标识
   private val appId = "spark-application-" + System.currentTimeMillis
 

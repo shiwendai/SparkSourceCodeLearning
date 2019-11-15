@@ -47,6 +47,7 @@ import org.apache.spark.util.{AccumulatorV2, Clock, SystemClock, Utils}
  * @param maxTaskFailures if any particular task fails this number of times, the entire
  *                        task set will be aborted
  */
+
 // Pool和TaskSetManager中对推断执行的操作分为两类：一类是可推断任务的检查和缓存；另一类是从缓存中找到可推断任务进行推断执行。
 // Pool和TaskSetManager的checkSpeculatableTasks方法实现了按照深度遍历算法对可推断任务的检测与缓存。
 // TaskSetManager的depueueSpeculative方法则实现了从缓存中找到可推断任务进行推断执行。
@@ -205,7 +206,7 @@ private[spark] class TaskSetManager(
   // Figure out which locality levels we have in our TaskSet, so we can do delay scheduling
   // Task的本地性级别的数组。
   var myLocalityLevels = computeValidLocalityLevels()
-  // 与myLcalityLevels中的每个本地性级别相对应，标识对应本地性级别的等待时间。localityWaits实际是对
+  // 与myLcalityLevels中的每个本地性级别相对应，表示对应本地性级别的等待时间。localityWaits实际是对
   // myLoclityLevels中的每个本地性级别应用getLocalityWait方法获取的
   var localityWaits = myLocalityLevels.map(getLocalityWait) // Time to wait at each level
 
@@ -327,7 +328,7 @@ private[spark] class TaskSetManager(
    * the given locality constraint.
    */
   // Labeled as protected to allow tests to override providing speculative tasks if necessary
-  // 用于根据指定的Host、Executor和 本地性级别 ，从可推断的Task中找出可推断的Task在TaskSet中的索引和相应的本地性级别
+  // 用于根据指定的Host、Executor 和 本地性级别，从可推断的Task中找出可推断的Task在TaskSet中的索引和相应的本地性级别
   protected def dequeueSpeculativeTask(execId: String, host: String, locality: TaskLocality.Value)
     : Option[(Int, TaskLocality.Value)] =
   {
@@ -433,7 +434,7 @@ private[spark] class TaskSetManager(
    *
    * @return An option containing (task index within the task set, locality, is speculative?)
    */
-  // 此方法用于根据指定的Host、Executor和本地性级别，找出要执行的Task的索引、相应的本地性级别 及 是否进行推断执行
+  // 此方法用于根据指定的Host、Executor和本地性级别，找出要执行的(Task的索引、相应的本地性级别 、 是否进行推断执行)
   private def dequeueTask(execId: String, host: String, maxLocality: TaskLocality.Value)
     : Option[(Int, TaskLocality.Value, Boolean)] =
   {
@@ -443,7 +444,7 @@ private[spark] class TaskSetManager(
       return Some((index, TaskLocality.PROCESS_LOCAL, false))
     }
 
-    //
+    // 如果本地性级别小于等于NODE_LOCAL
     if (TaskLocality.isAllowed(maxLocality, TaskLocality.NODE_LOCAL)) {
       for (index <- dequeueTaskFromList(execId, host, getPendingTasksForHost(host))) {
         return Some((index, TaskLocality.NODE_LOCAL, false))
@@ -473,6 +474,8 @@ private[spark] class TaskSetManager(
     }
 
     // find a speculative task if all others tasks have been scheduled
+    // 调用dequeueSpeculativeTask 方法，从可推断的Task中找出可推断的Task的索引和相应的本地性级别，
+    // 并返回可推断的Task的索引、相应的本地性级别、推断执行标记(true)的三元组
     dequeueSpeculativeTask(execId, host, maxLocality).map {
       case (taskIndex, allowedLocality) => (taskIndex, allowedLocality, true)}
   }
@@ -506,7 +509,7 @@ private[spark] class TaskSetManager(
 
       var allowedLocality = maxLocality
 
-      // 计算允许的本地性级别。如果最大本地性界别不为NO_PREF，则调用getAllowedLocalityLevel获取允许的本地性级别和maxLocality的最小值
+      // 计算允许的本地性级别。如果最大本地性级别不为NO_PREF，则调用getAllowedLocalityLevel获取允许的本地性级别和maxLocality的最小值
       if (maxLocality != TaskLocality.NO_PREF) {
         allowedLocality = getAllowedLocalityLevel(curTime)
         if (allowedLocality > maxLocality) {
@@ -525,7 +528,7 @@ private[spark] class TaskSetManager(
         // Do various bookkeeping
         // 将Task对应的copiesRunning信息加1，即增加复制运行数
         copiesRunning(index) += 1
-        // 获取任务尝试号attemptNum
+        // 获取任务尝试号attemptNumber
         val attemptNum = taskAttempts(index).size
         // 创建任务尝试信息（TaskInfo）
         val info = new TaskInfo(taskId, index, attemptNum, curTime,

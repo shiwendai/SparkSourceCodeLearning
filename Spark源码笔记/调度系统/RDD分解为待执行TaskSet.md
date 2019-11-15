@@ -4,12 +4,16 @@ Job提交后，DAGScheduler根据RDD层次关系解析为对应的Stages，同�
 
 将最上层的Stage根据并发关系（findMissingPartitions ）分解为多个Task，将这个多个Task封装为TaskSet提交给TaskScheduler。非最上层的Stage的存入处理的列表中（waitingStages += stage）
 
-** 流程如下：**
+**流程如下：**
 
 ![](_v_images/_1573182651_28282.png)
 
 
 * 1.DAGSchedulerEventProcessLoop中，线程【dag-scheduler-event-loop】处理到JobSubmitted
+    
+    a) 划分Stage
+    
+    ![](_v_images/_1573192879_1868.png)
 
 * 2.调用DAGScheduler进行handleJobSubmitted
     

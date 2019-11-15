@@ -82,7 +82,8 @@ private[spark] class TaskSchedulerImpl(
   // Duplicate copies of a task will only be launched if the original copy has been running for
   // at least this amount of time. This is to avoid the overhead of launching speculative copies
   // of tasks that are very short.
-  // 用于保证原始任务至少需要运行的时间。原始任务只有超过此时间限制，才允许启动副本任务。这可以避免原始任务执行太短的时间就被推断执行副本任务
+  // 用于保证原始任务至少需要运行的时间。原始任务只有超过此时间限制，才允许启动副本任务。
+  // 这可以避免原始任务执行太短的时间就被推断执行副本任务
   val MIN_TIME_TO_SPECULATION = 100
 
   // 对任务调度进行推断执行的ScheduledThreadPoolExecutor.

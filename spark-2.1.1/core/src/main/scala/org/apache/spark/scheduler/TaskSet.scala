@@ -23,6 +23,7 @@ import java.util.Properties
  * A set of tasks submitted together to the low-level TaskScheduler, usually representing
  * missing partitions of a particular stage.
  */
+
 // TaskSet可以有一到多个本地性级别，但在给Task分配本地性时只能是其中的一个。
 // TaskSet中所有的Task都具有相同的允许使用的本地性级别，但在运行期可能因为资源不足、运行时间等因素，
 // 导致同一TaskSet中的的各个Task的本地性级别可能不同

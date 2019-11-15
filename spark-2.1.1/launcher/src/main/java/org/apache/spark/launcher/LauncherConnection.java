@@ -39,6 +39,7 @@ abstract class LauncherConnection implements Closeable, Runnable {
 
   // 与LauncherServer的Socket服务端建立连接的Socket客户端
   private final Socket socket;
+
   // 建立在Socket的输出流上的ObjectOutputStream，用于向服务端发送消息
   private final ObjectOutputStream out;
 

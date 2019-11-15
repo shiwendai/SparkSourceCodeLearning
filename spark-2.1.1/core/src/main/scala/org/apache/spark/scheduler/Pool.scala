@@ -29,7 +29,7 @@ import org.apache.spark.scheduler.SchedulingMode.SchedulingMode
  * A Schedulable entity that represents collection of Pools or TaskSetManagers
  */
 private[spark] class Pool(
-    val poolName: String,
+    val poolName: String, // 调度池名称
     val schedulingMode: SchedulingMode, // Pool的构造器属性之一，表示调度模式(SchedulingMode).
     initMinShare: Int, // minShare 的初始值
     initWeight: Int) // weight的初始值

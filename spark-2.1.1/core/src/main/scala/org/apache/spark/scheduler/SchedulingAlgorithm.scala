@@ -26,6 +26,7 @@ private[spark] trait SchedulingAlgorithm {
   def comparator(s1: Schedulable, s2: Schedulable): Boolean
 }
 
+
 private[spark] class FIFOSchedulingAlgorithm extends SchedulingAlgorithm {
   override def comparator(s1: Schedulable, s2: Schedulable): Boolean = {
     // 对s1和s2两个Schedulable的优先级(值越小，优先级越高)进行比较
@@ -42,6 +43,7 @@ private[spark] class FIFOSchedulingAlgorithm extends SchedulingAlgorithm {
     res < 0
   }
 }
+
 
 private[spark] class FairSchedulingAlgorithm extends SchedulingAlgorithm {
   override def comparator(s1: Schedulable, s2: Schedulable): Boolean = {
