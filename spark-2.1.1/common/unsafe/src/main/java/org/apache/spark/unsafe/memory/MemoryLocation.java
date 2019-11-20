@@ -28,7 +28,7 @@ public class MemoryLocation {
 
 	// obj属性有注解Nullable来标注，这是为什么?
 	// Tungsten处于堆内存模式时，数据作为对象存储在JVM的对上，此时的obj不为空。
-	// Tungstem处于堆外内存模式时，数据出处在JVM的堆外内存中，以为不会在JVM中存在对象。
+	// Tungstem处于堆外内存模式时，数据存储在JVM的堆外内存中，因而不会在JVM中存在对象。
   @Nullable
   Object obj;
 

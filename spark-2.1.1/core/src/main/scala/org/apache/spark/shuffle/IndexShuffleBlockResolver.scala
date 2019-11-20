@@ -210,7 +210,7 @@ private[spark] class IndexShuffleBlockResolver(
     }
   }
 
-  // 用户获取指定的ShuffleBlockId对应的数据
+  // 用于获取指定的ShuffleBlockId对应的数据
   override def getBlockData(blockId: ShuffleBlockId): ManagedBuffer = {
     // The block is actually going to be a range of a single map output file for this map, so
     // find out the consolidated file, then the offset within that from our index

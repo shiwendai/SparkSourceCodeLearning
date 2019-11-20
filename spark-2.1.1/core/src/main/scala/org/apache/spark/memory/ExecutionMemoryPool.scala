@@ -54,7 +54,7 @@ private[memory] class ExecutionMemoryPool(
   /**
    * Map from taskAttemptId -> memory consumption in bytes
    */
-    // taskAttemptId与所消费内存的到校之间的映射关系
+    // taskAttemptId与所消费内存的大小之间的映射关系
   @GuardedBy("lock")
   private val memoryForTask = new mutable.HashMap[Long, Long]()
 

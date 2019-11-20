@@ -1,0 +1,65 @@
+vnote_backup_file_826537664 E:/SourceInsight/SparkSourceCodeLearning/Spark源码笔记/部署模式/Worker详解.md
+# Worker详解
+
+## 注册Worker的完整流程
+
+![](_v_images/_1574132493_31003.png)
+
+①表示Worker刚刚启动时，由于不知道哪个Master是ALIVE的，所以向所有Master发送RegisterWorker消息（此消息携带Worker的ID、host、port、内核数、内存大小等信息）。向状态为STANDBY的Master发送消息将接受到MasterInStandby消息，Worker由此知道这个Master不“管事”。如果Worker向ALIVE状态的Master重复注册或者注册失败，将会收到RegisterWorkerFailed消息，Worker发现自己还未注册成功时将推出。
+
+②状态为ALIVE的Master接收到RegisterWorker消息后，将根据RegisterWorker消息携带的信息构建出WorkerInfo,并将WorkerInfo添加到workers、idToWorker、addressToWorker等缓存中，最后调用PersistenceEngine的addWorker方法将WorkerInfo持久化。
+
+③状态为ALIVE的Master在Worker注册成功后，向Worker回复RegisteredWorker消息。
+
+④状态为ALIVE的Master在向Worker回复RegisteredWorker消息后，将调用schedule对Driver及Executor进行资源调度。
+
+⑤Worker接收到Master回复的RegisteredWorker消息后，将调用changeMaster方法修改激活的Master的信息。
+
+⑥Worker调用changeMaster方法后， 将向forwordMessgeScheduler提交向Worker自身发送SendHeartbeat消息的定时任务。
+
+⑦Worker接收到SendHeartbeat消息后， 将向Master发送心跳消息。Master接收到Heartbeat消息后，将更新WorkerInfo的最后心跳时间（lastHeartbeat）
+
+
+## Worker心跳及超时检查的流程
+
+![](_v_images/_1574134728_31112.png)
+
+①Worker在向Master注册成功后， 将向forwordMessageScheduler提交以 HEARTBEAT_MILLIS作为间隔向Worker自身发送SendHeartbeat消息的定时任务。
+
+②Worker接收到SendHeartbeat消息后，将向Master发送Heartbeat消息。在正常情况下，Worker向Master发送的心跳足够及时，因此Master并未检查出Worker超时，此时IdToWorker中将缓存着WorkerInfo，Master只需要将此WorkerInfo的最后心跳时间（lastHeartbeat）更新为系统当前时间戳。  
+
+③Master内部的定时任务checkForWorkerTimeOutTask将以WORKER_TIMEOUT_MS为时间间隔定时向Master自身发送CheckForWorkerTimeOut消息。Master接收到CheckForWorkerTimeOu消息后，调用timeOutDeadWorkers方法检查超时的Worker。
+
+④Master在检查过程中发现Worker超时，但是对应的WorkerInfo的状态不是DEAD，因此调用removeWorker方法移除Master维护的关于指定Worker的相关信息和状态。这里特别关注的是，此时Master会将WorkerInfo从IdToWorker中移除，但是workers中仍然保留WorkerInfo。
+
+⑤removeWorker方法的最后还将调用持久化引擎的removeWorker方法从持久话存储中移除WorkerInfo。
+
+⑥Master在检查过程中发现Worker超时且对应的WorkerInfo的状态时DEAD，等待足够长的时间后将WorkerInfo从workers中移除。
+
+⑦Master在检查Worker时，如果发生了序号④所示的情况，那么idToWorker中将没有对应的WorkerInfo，但是workers中仍然保留WorkerInfo，此时Master将向Worker发送ReconnectWorker消息。
+
+⑧Worker接收到ReconnectWorker消息后，将重新调用registerWithMaster方法向Master注册，进而向Master发送RegisterWorker消息。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -47,6 +47,7 @@ public class MemoryBlock extends MemoryLocation {
   /**
    * Returns the size of the memory block.
    */
+  // MemoryBlock的大小
   public long size() {
     return length;
   }

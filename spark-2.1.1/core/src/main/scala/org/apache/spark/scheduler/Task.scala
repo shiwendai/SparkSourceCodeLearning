@@ -92,7 +92,7 @@ private[spark] abstract class Task[T](
       metrics)
     // 调用TaskContext的伴生对象的setTaskContext方法将TaskContextImpl设置到ThreadLocal中
     TaskContext.setTaskContext(context)
-    // 获取运行尝试任务的线程，并有taskThread属性保存
+    // 获取运行尝试任务的线程，并用taskThread属性保存
     taskThread = Thread.currentThread()
 
     // 如果任务尝试已经被kill，则调用kill方法，将任务尝试及TaskContextImpl标记为kill（因为interruptThread为false）

@@ -469,6 +469,8 @@ private[deploy] class Master(
       logInfo(s"Received unregister request from application $applicationId")
       idToApp.get(applicationId).foreach(finishApplication)
 
+      // Master在启动的时候会启动一个定时任务checkForWorkerTimeOutTask以一定间隔，
+    // 不断向Master自身发送CheckForWorkerTimeOut消息来实现对Worker的超时检查。
     case CheckForWorkerTimeOut =>
       timeOutDeadWorkers()
 

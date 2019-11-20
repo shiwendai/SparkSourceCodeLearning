@@ -217,7 +217,7 @@ private[spark] class ExternalSorter[K, V, C](
       // Combine values in-memory first using our AppendOnlyMap
       // 获取聚合器的mergeValue函数(此函数用于将新的Value合并到聚合的结果中)
       val mergeValue = aggregator.get.mergeValue
-      // 获取聚合器的createCombiner函数（次函数用于创建聚合的初始值）
+      // 获取聚合器的createCombiner函数（此函数用于创建聚合的初始值）
       val createCombiner = aggregator.get.createCombiner
       var kv: Product2[K, V] = null
 

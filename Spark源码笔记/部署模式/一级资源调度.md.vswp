@@ -1,0 +1,63 @@
+vnote_backup_file_826537664 E:/SourceInsight/SparkSourceCodeLearning/Spark源码笔记/部署模式/一级资源调度.md
+# 一级资源调度
+
+Master 的资源资源调度是Spark的一级资源调度，分为对Driver的资源调度和对Executor的资源调度。schedule方法是资源调度的入口方法。
+
+## Driver 的资源调度过程
+
+为了更容易理解 schedule 方法的实现， 这里假设Driver 所需的内存是8， CPU内核数是2， workers中一共缓存了四个 WorkerInfo，那么对此 Driver 的资源调度如上图所示。
+
+![](_v_images/_1574078080_26807.png)
+
+1. workers 中 id 为 0 的 WorkerInfo 的状态时DEAD， 因此被过滤。
+
+2. 在随机洗牌之后， 假设 id 为 1 和 id 为 2的 WorkerInfo 顺序上发生了互换，id为3的还在后面。
+
+3. 由于id为2的WorkerInfo的空闲内存不满足Driver的需求，因此迭代查找下一个WorkerInfo。id为1的WorkerInfo的空闲内存和空闲CPU内核都满足Driver的需求，因此将在id为1的Worker上运行Driver。
+
+4. 由于id为1的WorkerInfo的内存和内核数分配给了Driver， 因此id为1的WorkerInfo剩余内存是0，剩余内核是2。
+
+
+假设这是需要另一个Driver进行资源调度，这个Driver所需的内存是8， CPU内核数是4， 那么资源调度过程可能如下图所示：
+
+![](_v_images/_1574078720_19717.png)
+
+上图在第一次遍历过程中，发现所有可用的WorkerInfo都不满足Driver的资源需求，那么将进入下一次遍历。在第二次遍历之前，假设之前的Driver已经释放了占用的资源给id为1的WorkerInfo， 那么id为1的WorkerInfo将满足资源的需求。
+
+
+
+## 在Worker上分配Executors（scheduleExecutorsOnWorkers）
+
+* 1. 获取所有可以运行Executor的Worker的索引 freeWorkers.
+
+* 2. 当freeWorkers不为空， 那么遍历freeWorkers中的每一个索引位置：
+    * ①由于给Application分配Executor时，每个Executor都至少需要minCoresPerExecutor指定大小的内核，因此将coresToAssign减去minCoresPerExecutor。
+    * ②将usableWorkers的pos位置的WorkerInfo已经分配的内核数增加minCoresPerExecutor的大小。
+    * ③如果oneExecutorPerWorker为true，则将assignedExecutors的索引为pos的值设置为1，否则将assignedExecutors的索引为pos的值增1。
+    * ④如果spreadOutApps为true，则将keepScheduling设置为false，这回导致对pos位置上的WorkerInfo的资源调度提前结束，那么应用需要的其他Executor资源将会在其他WorkerInfo上调度。如果spreadOutApps为false，那么应用需要的Executor资源将会不断从pos位置的WorkerInfo上调度，直到pos位置的WorkerInfo上的资源被使用完。
+
+* 3. 返回assignedCores
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

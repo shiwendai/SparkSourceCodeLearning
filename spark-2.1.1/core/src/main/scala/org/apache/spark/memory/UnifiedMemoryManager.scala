@@ -116,7 +116,7 @@ private[spark] class UnifiedMemoryManager private[memory] (
      * and caches a large block between the attempts. This is called once per attempt.
      */
     // 如果存储内存池的空闲空间大于存储内存池从执行内存池借用的空间大小，那么除了回收被借用的空间外，还会向存储池
-    // 再借用一些空间；如果存储池的空闲空间小于等于存储池从执行池借用的空间大小，那么值需要回收被借用的空间。
+    // 再借用一些空间；如果存储池的空闲空间小于等于存储池从执行池借用的空间大小，那么只需要回收被借用的空间。
     def maybeGrowExecutionPool(extraMemoryNeeded: Long): Unit = {
       if (extraMemoryNeeded > 0) {
         // There is not enough free memory in the execution pool, so try to reclaim memory from

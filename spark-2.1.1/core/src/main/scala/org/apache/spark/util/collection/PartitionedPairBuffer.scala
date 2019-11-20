@@ -42,7 +42,7 @@ import org.apache.spark.util.collection.WritablePartitionedPairCollection._
  *
  * The buffer can support up to `1073741823 (2 ^ 30 - 1)` elements.
  */
-// map任务 除了采用AppendOnlyMap对键值对在内存中进行更新或聚合，Spark还提供了一种将将键值对缓存在内存中，并支持对元素进行排序的的数据结构。
+// map任务 除了采用AppendOnlyMap对键值对在内存中进行更新或聚合，Spark还提供了一种将键值对缓存在内存中，并支持对元素进行排序的的数据结构。
 // AppendOnlyMap的表现行为类似于Map，而这种数据结构类似于Collection,它就是PartitionedPairBuffer。
 // PartitionedPairBuffer最大支持2^30-1个元素
 private[spark] class PartitionedPairBuffer[K, V](initialCapacity: Int = 64)
@@ -64,7 +64,7 @@ private[spark] class PartitionedPairBuffer[K, V](initialCapacity: Int = 64)
   private var data = new Array[AnyRef](2 * initialCapacity)
 
   /** Add an element into the buffer */
-  // 此方法用于将key的分区ID、key及value添加到PartitionedPartitionedPairBuffer底层的data数组中
+  // 此方法用于将key的分区ID、key及value添加到PartitionedPairBuffer底层的data数组中
   def insert(partition: Int, key: K, value: V): Unit = {
     // 如果底层data数组已经满了，即curSize与capacity相等时，调用growArray方法对PartitionedPairBuffer的容量进行扩充
     if (curSize == capacity) {

@@ -78,7 +78,7 @@ private[spark] class StandaloneAppClient(
     // 是否已经与Master断开连接。此属性用于防止多次调用StandaloneAppClientListener的disconnected方法
     private var alreadyDisconnected = false
     // To avoid calling listener.dead() multiple times
-    // 表示ClientEndpoint是否已经死掉。此属性用于防止多次调用StandaloneAppClientListener的ddead方法
+    // 表示ClientEndpoint是否已经死掉。此属性用于防止多次调用StandaloneAppClientListener的dead方法
     private val alreadyDead = new AtomicBoolean(false)
     // 用于保存registerMasterThreadPool执行的向各个Master注册Application的任务返回的Future
     private val registerMasterFutures = new AtomicReference[Array[JFuture[_]]]
@@ -102,7 +102,7 @@ private[spark] class StandaloneAppClient(
 
     // ClientEndpoint的onStart方法将尝试调用registerWithMaster方法向Master注册Application.
     // 如果执行registerWithMaster的过程中捕获到异常，那么会调用markDisconnected方法，将当前ClientEndpoint
-    // 标记为和Master断开连接，并且调用StandaloneAppClient的stop方法定制StandaloneAppClient.
+    // 标记为和Master断开连接，并且调用StandaloneAppClient的stop方法停止StandaloneAppClient.
     override def onStart(): Unit = {
       try {
         registerWithMaster(1)

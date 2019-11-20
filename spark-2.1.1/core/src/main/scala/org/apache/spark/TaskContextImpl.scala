@@ -50,7 +50,7 @@ private[spark] class TaskContextImpl(
   @transient private val onFailureCallbacks = new ArrayBuffer[TaskFailureListener]
 
   // TaskContextImpl相对应的任务尝试是否已经被kill的状态。之所以用interrupted作为任务尝试被kill的状态变量，
-  // 因为kill实际是通过对执行任务尝试的线程进行终端实现的。
+  // 因为kill实际是通过对执行任务尝试的线程进行中断实现的。
   // Whether the corresponding task has been killed.
   @volatile private var interrupted: Boolean = false
 

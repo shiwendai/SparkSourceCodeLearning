@@ -1,0 +1,26 @@
+#  ShuffleWriter
+
+## SortShuffleWriter在map端聚合的执行流程
+
+![](_v_images/_1573895273_18555.png)
+
+上图展示了map任务结果更新到内存（即调用ExternalSorter的insertAll方法时将选择PartitionedAppendOnlyMap）、将内存中的数据持久化到分区数据文件（即调用ExternalSorter 的 writePartitionedFile）、给分区数据文件生成分区索引文件（即调用IndexShuffleBlockResolver的writeIndexFileAndCommit）的一系列动作。
+
+## SortShuffleWriter不在map端聚合的执行流程
+
+![](_v_images/_1573895539_12320.png)
+
+上图展示了map任务结果更新到内存（即调用ExternalSorter的insertAll方法时将选择PartitionedPairBuffer）、将内存中的数据持久化到分区数据文件（即调用ExternalSorter 的 writePartitionedFile）、给分区数据文件生成分区索引文件（即调用IndexShuffleBlockResolver的writeIndexFileAndCommit）的一系列动作。
+
+## BypassMergeSortShuffleWriter的write方法执行流程
+
+![](_v_images/_1573897006_16739.png)
+
+上图展示了输入记录的key计算分区ID，并给每个分区ID指定一个DiskBlockObjectWriter，将此分区的记录写入到临时Shuffle文件，然后调用BypassMergeSortShuffleWriter 的 writePartitionedFile方法，将所有的临时Shuffle文件按照分区ID升序写入正式的Shuffle数据文件，最后调用IndexShuffleBlockResolver 的 writeIndexFileAndCommit 方法创建 Shuffle 索引文件。
+
+## UnsafeShuffleWriter
+
+根据对UnsafeShuffleWriter的分析，可以看到UnsafeShuffleWriter的执行过程与SortShuffleWriter在不允许map端合并情况下的执行过程非常类似，只不过SortShuffleWriter底层的PartitionedPairBuffer使用的是JVM的内存，而UnsafeShuffleWriter使用的则是Tungsten
+
+
+UnsafeShuffleWriter底层使用ShuffleExternalSorter作为外部排序器，所以UnsafeShuffleWriter不具备SortShuffleWriter的聚合功能。UnsafeShuffleWriter将使用Tungsten的内存作为缓存，以提高写入磁盘的性能。

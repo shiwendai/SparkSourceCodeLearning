@@ -39,8 +39,7 @@ private[spark] class PartitionedAppendOnlyMap[K, V]
     destructiveSortedIterator(comparator)
   }
 
-  // 此方法进key的分区ID和key作为父类SizeTrackingAppendOnlyMap的update方法的第一个参数，而将value作为第二个参数
-  //
+  // 此方法key的分区ID和key作为父类SizeTrackingAppendOnlyMap的update方法的第一个参数，而将value作为第二个参数
   def insert(partition: Int, key: K, value: V): Unit = {
     update((partition, key), value)
   }
